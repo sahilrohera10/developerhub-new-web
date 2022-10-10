@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,600;0,700;0,800;1,600;1,700;1,800&family=Rubik+Moonrocks&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+ 
+}
+
+Navbar .Navbar{
+   color:white;
+  text-align: center;
+}
+logo{
+    color:rgb(239, 67, 207);
+    height: 100px;
+}
+header{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../assets/background.gif") no-repeat,center center fixed;
+    background-size: cover;
+    height: 100vh;
+    ;
+}
+hero{
+    color:white;
+}
+h1{
+    color:rgb(239, 67, 207);
+}
+.container{
+    display: flex;
+    flex-direction: left;
+}
+.button{
+    border-radius: 550px;
+}
+
+.Navbar_Brand logo{
+    font-size: 28px;
+    margin-right:5px;
+}
+.Navbar_Brand logoname{
+    font-size: 28px;
+}
+div{
+    color: white;
+}
+.title{
+    font-size: 60px;
+    font-weight: 800;
+}
+Button{
+    border-radius: 50px;
+    margin-right: 550px;
+}
+.navcontent{
+    font-size: larger;   
+   
+}
+.navcontent .navdrop{
+    font-size: 22px;
+}
