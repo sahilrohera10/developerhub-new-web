@@ -57,13 +57,25 @@ div{
 .navcontent .navdrop{
     font-size: 22px;
 }
+#collasible-nav-dropdown{
+    color: white;
+}
+.navcontent .navdrop{
+    color:white;
+    font-size: 22px;
+}
+.typeAnimation{
+        font-size: 68px;
+        color: rgb(239, 67, 207);
+        font-weight: 700;
+}
 
 
 @media (max-width: 954px){
     header{
         background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../assets/background.gif") no-repeat center center;
         background-size: cover;
-        height: 100vh;
+        height: 70vh;
     }
     .hero-container{
         margin-left: -10px;
@@ -72,12 +84,23 @@ div{
     .lead{
         text-align: left;
     }
+    .title{
+        font-size: 50px;
+    }
+}
+@media screen and (max-width : 500px) {
+
+    .typeAnimation{
+        font-size: 58px;
+       
+}
+    
 }
 @media (max-width: 400px) {
     header{
         background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../assets/background.gif") no-repeat center center;
         background-size:cover;
-        height: 100vh;
+        /* height: 100vh; */
     }
     .hero-container{
         margin-left: -20px;
@@ -86,4 +109,11 @@ div{
     .lead{
         text-align: left;
     }
+    .title{
+        font-size: 40px;
+    }
+    .typeAnimation{
+        font-size: 48px;
+    }
+      
 }

@@ -1,0 +1,44 @@
+.part-img{
+    width: 100px;
+}
+.adWrapper {
+    margin-top: 100px;
+    height: 203px;
+    background: #0D0628;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90vw;
+    margin-left: 71px;
+  }
+.adsHeading {
+    font-family: Jost;
+    /* font-size: normal; */
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 20px;
+
+    letter-spacing: -0.41px;
+  }
+
+  @media screen and (max-width : 650px) {
+
+    .adWrapper{
+        margin-left: 60px;
+    }
+    
+  }
+  @media screen and (max-width : 550px) {
+
+    .adWrapper{
+        margin-left: 50px;
+    }
+    
+  }
+  @media screen and (max-width : 350px) {
+
+    .adWrapper{
+        margin-left: 35px;
+    }
+    
+  }

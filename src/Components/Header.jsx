@@ -87,9 +87,9 @@ const Header = () => {
         </Container>
       </Navbar>
       <hero>
-        <div class="container col-xxl-12 px-4 py-5">
-          <div class="row align-items-center g-5 py-5">
-            <div class="col-lg-6">
+        <div className="container col-xxl-12 px-4 py-5">
+          <div className="row align-items-center g-5 py-5">
+            <div className="col-lg-6">
               <h1 className="title">Courses Available</h1>
 
               <TypeAnimation
@@ -103,26 +103,20 @@ const Header = () => {
                   2000,
                   "AI/ML",
                   () => {
-                    console.log("Done typing!"); // Place optional callbacks anywhere in the array
+                    // console.log("Done typing!"); // Place optional callbacks anywhere in the array
                   },
                 ]}
                 wrapper="div"
                 cursor={true}
                 repeat={Infinity}
-                style={{
-                  fontSize: "68px",
-                  color: "rgb(239, 67, 207)",
-                  fontWeight: "700",
-                }}
+                // className="typing-annimation"
               />
-              <p class="lead">
+              <p className="lead">
                 Quickly design and customize responsive mobile-first sites with
                 Bootstrap, the world’s most popular front-end open source
-                toolkit, featuring Sass variables and mixins, responsive grid
-                system, extensive prebuilt components, and powerful JavaScript
-                plugins.
+                toolkit.
               </p>
-              <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <div className="d-grid gap-2 d-md-flex justify-content-md-start">
                 <Button
                   className="header-btn"
                   variant="contained"

@@ -1,0 +1,36 @@
+.about-up{
+    font-size: 65px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    /* width: 90vw;    */
+}
+.about{
+    width: 95vw;
+    margin-left: 25px;
+    margin-top: 80px;
+}
+.about-down{
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+    /* width: 90vw; */
+}
+
+@media screen and (max-width : 350px ) {
+    .about-up{
+        font-size: 60px;
+        font-weight: 700;
+        text-align: center;
+        color: white;
+        /* width: 90vw;    */
+    }
+    .about{
+        /* width: 95vw; */
+        margin-left: 15px;
+        /* margin-top: 80px; */
+    }
+    
+}

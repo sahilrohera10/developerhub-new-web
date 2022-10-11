@@ -56,9 +56,14 @@
       width: calc(50% - 2rem);
     }
   }
+  @media screen and (max-width: 550px) {
+    .new-card {
+      width: calc(50% - 1rem);
+    }
+  }
   @media screen and (max-width: 500px) {
     .new-card {
-      width: 100%;
+      width: 73%;
     }
   }
   

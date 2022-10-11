@@ -4,6 +4,7 @@
 .Card_Div{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     width: 90%;
     margin-left: 70px;
     margin-top: 50px;
@@ -12,6 +13,7 @@
 .Card_Div_2{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     width: 90%;
     margin-left: 70px;
     margin-top: 100px;
@@ -54,4 +56,105 @@ font-size: 60px;
   to {
     background-position: 200% center;
   }
+}
+
+@media screen and (max-width : 750px) {
+
+  .Card_Div{
+    /* display: flex;
+    justify-content: space-around; */
+    /* width: 90%; */
+    margin-left: 40px;
+    /* margin-top: 50px; */
+    
+}
+.Card_Div_2{
+    /* display: flex;
+    justify-content: space-around;
+    width: 90%; */
+    margin-left: 40px;
+    /* margin-top: 100px; */
+    
+}
+  
+}
+@media screen and (max-width : 700px) {
+
+  .Card_Div{
+    /* display: flex;
+    justify-content: space-around; */
+    width: 95%;
+    margin-left: 20px;
+    /* margin-top: 50px; */
+    
+}
+.Card_Div_2{
+    /* display: flex;
+    justify-content: space-around; */
+    width: 95%;
+    margin-left: 20px;
+    /* margin-top: 100px; */
+    
+}
+  
+}
+@media screen and (max-width : 600px) {
+
+  .Card_Div{
+    /* display: flex;
+    justify-content: space-around; */
+    width: 95%;
+    margin-left: 0px;
+    /* margin-top: 50px; */
+    
+}
+.Card_Div_2{
+    /* display: flex;
+    justify-content: space-around; */
+    width: 95%;
+    margin-left: 0px;
+    /* margin-top: 100px; */
+    
+}
+  
+}
+@media screen and (max-width : 500px) {
+
+  .Card_Div{
+    /* display: block; */
+    /* justify-content: space-around;
+    width: 90%; */
+    margin-left: 10px;
+    /* margin-top: 50px; */
+    
+}
+.Card_Div_2{
+    /* display: block; */
+    /* justify-content: space-around;
+    width: 90%; */
+    margin-left: 10px;
+    margin-top: 20px;
+    
+}
+  
+}
+@media screen and (max-width : 350px) {
+
+  .Card_Div{
+    /* display: block; */
+    /* justify-content: space-around;
+    width: 90%; */
+    margin-left: -8px;
+    /* margin-top: 50px; */
+    
+}
+.Card_Div_2{
+    /* display: block; */
+    /* justify-content: space-around;
+    width: 90%; */
+    margin-left: -8px;
+    margin-top: 20px;
+    
+}
+  
 }

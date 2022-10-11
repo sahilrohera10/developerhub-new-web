@@ -1,7 +1,7 @@
 import React from "react";
-import "./Course.css";
+import "./Quote.css";
 
-export default function Course() {
+export default function Quote() {
   return (
     <div className="about">
       <p className="about-up">
