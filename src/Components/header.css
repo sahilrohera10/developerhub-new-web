@@ -57,3 +57,33 @@ div{
 .navcontent .navdrop{
     font-size: 22px;
 }
+
+
+@media (max-width: 954px){
+    header{
+        background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../assets/background.gif") no-repeat center center;
+        background-size: cover;
+        height: 100vh;
+    }
+    .hero-container{
+        margin-left: -10px;
+        
+    }
+    .lead{
+        text-align: left;
+    }
+}
+@media (max-width: 400px) {
+    header{
+        background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../assets/background.gif") no-repeat center center;
+        background-size:cover;
+        height: 100vh;
+    }
+    .hero-container{
+        margin-left: -20px;
+        
+    }
+    .lead{
+        text-align: left;
+    }
+}

@@ -1,34 +1,18 @@
-.course-main-div{
-width: 95%;
-    display: flex;
-    margin-left: 30px;
-    justify-content: space-around;
-    margin-top: 50px;
+.about-up{
+    font-size: 65px;
+    font-weight: 700;
+    text-align: center;
+    /* width: 90vw;    */
 }
-
-.course-content{
-    color: white;
-    font-size: 40px;
-    font-weight: 500;
-    width: 700px;
+.about{
+    width: 95vw;
+    margin-left: 25px;
     margin-top: 80px;
 }
-.ar-img{
-    width: 450px;
-    border-radius: 20px;
-}
-
-.explore-btn{
-    width: 180px;
-    height: 60px;
-    border-radius: 20px;
-    cursor: pointer;
-    background-color: #008DD2;
-    margin-left: 180px;
-
-}
-.btn-content{
-   font-size: 25px;
-   margin-top: 9px;
-   color: white;
+.about-down{
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 30px;
+    /* width: 90vw; */
 }
