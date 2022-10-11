@@ -1,5 +1,5 @@
 .AllCourses{
-    margin-top: 80px;
+    margin-top: 150px;
 }
 .Card_Div{
     display: flex;
@@ -26,6 +26,8 @@ font-size: 60px;
 }
 .animate-charcter
 {
+  text-align: center;
+  width: 98vw;
    text-transform: uppercase;
   background-image: linear-gradient(
     -225deg,
@@ -44,7 +46,8 @@ font-size: 60px;
   -webkit-text-fill-color: transparent;
   animation: textclip 2s linear infinite;
   display: inline-block;
-      font-size: 190px;
+      font-size: 60px;
+      font-weight: 600;
 }
 
 @keyframes textclip {

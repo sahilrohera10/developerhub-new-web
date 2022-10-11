@@ -2,21 +2,7 @@
     box-sizing: border-box;
   }
   
-  /* html {
-    font-size: 18px; 
-    line-height: 1.5;
-    font-weight: 300;
-    color: #333;
-    font-family: "Nunito Sans", sans-serif;
-  } */
-  
-  /* body {
-    margin: 0; 
-    padding: 0;
-    height: 100vh;
-    background-color: #ecf0f9;
-    background-attachment: fixed;
-  } */
+ 
   
   .content {
     display: flex;
@@ -45,7 +31,7 @@
     position: absolute;
     width: 60px;
     height: 4px;
-    /* background: linear-gradient(135deg, #1a9be6, #1a57e6); */
+    /* back-newground: linear-gradient(135deg, #1a9be6, #1a57e6); */
     bottom: 0;
   }
   
@@ -56,31 +42,28 @@
     margin-bottom: 3rem;
   }
   
-  .card {
-    /* color: inherit; */
+  .new-card {
+   
     cursor: pointer;
-    /* width: calc(33% - 2rem);
-    min-width: calc(33% - 2rem); */
+   
     height: 300px;
     width: 300px;
-    /* min-height: 400px;
-    perspective: 1000px; */
+ 
     margin: 1rem;
-    /* position: relative; */
   }
   @media screen and (max-width: 800px) {
-    .card {
+    .new-card {
       width: calc(50% - 2rem);
     }
   }
   @media screen and (max-width: 500px) {
-    .card {
+    .new-card {
       width: 100%;
     }
   }
   
-  .front,
-  .back {
+  .front-new,
+  .back-new {
     display: flex;
     border-radius: 6px;
     background-position: center;
@@ -91,7 +74,7 @@
     position: absolute;
     height: 100%;
     width: 100%;
-    -webkit-backface-visibility: hidden;
+    -webkit-back-newface-visibility: hidden;
     backface-visibility: hidden;
     transform-style: preserve-3d;
     transition: ease-in-out 600ms;
@@ -100,7 +83,7 @@
     height: 100%;
     width: 100%;
   }
-  .front {
+  .front-new {
     background-size: cover;
     padding: 2rem;
     font-size: 1.618rem;
@@ -112,63 +95,60 @@
     height: 300px;
     background-color: #0D0628;
     border: 1px solid white;
-    /* box-shadow: 0 0 2px 2px red; */
 
   }
-  .front:before {
-    /* position: absolute; */
+  .front-new:before {
     display: block;
     content: "";
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    /* background: linear-gradient(135deg, #1a9be6, #1a57e6); */
     opacity: 0.25;
     z-index: -1;
   }
-  .card:hover .front {
+  .new-card:hover .front-new {
     transform: rotateY(180deg);
   }
-  .card:nth-child(even):hover .front {
+  .new-card:nth-child(even):hover .front-new {
     transform: rotateY(-180deg);
   }
   
-  .back {
+  .back-new {
     background: #fff;
     transform: rotateY(-180deg);
     padding: 0 2em;
     width: 300px;
     height: 300px;
   }
-  .back .button {
+  .back-new .button-new {
     background-color: #0D0628;
   }
-  .back .button:before {
+  .back-new .button-new:before {
     box-shadow: 0 0 10px 10px rgba(26, 87, 230, 0.25);
     background-color: rgba(26, 87, 230, 0.25);
   }
-  .card:hover .back {
+  .new-card:hover .back-new {
     transform: rotateY(0deg);
   }
-  .card:nth-child(even) .back {
+  .new-card:nth-child(even) .back-new {
     transform: rotateY(180deg);
   }
-  .card:nth-child(even) .back .button {
+  .new-card:nth-child(even) .back-new .button-new {
     background: linear-gradient(135deg, #e61a80, #e61a3c);
   }
-  .card:nth-child(even) .back .button:before {
+  .new-card:nth-child(even) .back-new .button-new:before {
     box-shadow: 0 0 10px 10px rgba(230, 26, 60, 0.25);
     background-color: rgba(230, 26, 60, 0.25);
   }
-  .card:nth-child(even):hover .back {
+  .new-card:nth-child(even):hover .back-new {
     transform: rotateY(0deg);
   }
   
-  .button {
+  .button-new {
     transform: translateZ(40px);
     cursor: pointer;
-    -webkit-backface-visibility: hidden;
+    -webkit-back-newface-visibility: hidden;
     backface-visibility: hidden;
     font-weight: bold;
     color: #fff;
@@ -180,13 +160,13 @@
     transform-style: preserve-3d;
     transition: 300ms ease;
   }
-  .button:before {
+  .button-new:before {
     transition: 300ms ease;
     position: absolute;
     display: block;
     content: "";
     transform: translateZ(-40px);
-    -webkit-backface-visibility: hidden;
+    -webkit-back-newface-visibility: hidden;
     backface-visibility: hidden;
     height: calc(100% - 20px);
     width: calc(100% - 20px);
@@ -194,16 +174,16 @@
     left: 10px;
     top: 16px;
   }
-  .button:hover {
+  .button-new:hover {
     transform: translateZ(55px);
   }
-  .button:hover:before {
+  .button-new:hover:before {
     transform: translateZ(-55px);
   }
-  .button:active {
+  .button-new:active {
     transform: translateZ(20px);
   }
-  .button:active:before {
+  .button-new:active:before {
     transform: translateZ(-20px);
     top: 12px;
   }
@@ -215,163 +195,3 @@
 
 }
 
-
-  .background-img{
-    /* background-image: url("https://3.bp.blogspot.com/-piZWCW2uUbg/W2fPXxkWZgI/AAAAAAAAOu0/eydmMjTIqcwLMHEEr2H7imqoRTxMw4o9QCLcBGAs/s1600/among_trees_night_dribbble.png"); */
-
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 5% auto;
-    padding:20px;
-    /* border: 1px solid #2a3cad; */
-    border-radius: 4px;
-    /* box-shadow: 0px 0px 5px #2a3cad; */
-    position: relative;
-  }
-  
-  .content h2{ font-size:19px;}
-/*   */
-  .box:before{
-    content: '';
-    position:absolute;
-    top:0;
-    left:-100%;
-    width:100%;
-    height:100%;
-    background: rgba(255,255,255,0.1);
-    transition:0.5s;
-    pointer-events: none;
-  }
-    
-  .box:hover:before{
-    left:-50%;
-    transform: skewX(-5deg);
-  }
-  
-  
-  .box .content{
-    position:absolute;
-    top:15px;
-    left:15px;
-    right:15px;
-    bottom:15px;
-    border:1px solid #f0a591;
-    padding:20px;
-    text-align:center;
-    box-shadow: 0 5px 10px rgba(9,0,0,0.5);
-    
-  }
-  
-  .box span{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: block;
-    box-sizing: border-box;
-    
-  }
-  
-  .box span:nth-child(1)
-  {
-    transform:rotate(0deg);
-  }
-  
-  .box span:nth-child(2)
-  {
-    transform:rotate(90deg);
-  }
-  
-  .box span:nth-child(3)
-  {
-    transform:rotate(180deg);
-  }
-  
-  .box span:nth-child(4)
-  {
-    transform:rotate(270deg);
-  }
-  
-  .box span:before
-  {
-    content: '';
-    position: absolute;
-    width:100%;
-    height: 2px;
-    background: #50dfdb;
-    animation: animate 4s linear infinite;
-  }
-  
-  @keyframes animate {
-    0% {
-    transform:scaleX(0);
-    transform-origin: left;
-    }
-    50%
-    {
-      transform:scaleX(1);
-    transform-origin: left;
-    }
-    50.1%
-    {
-      transform:scaleX(1);
-    transform-origin: right;
-      
-    }
-    
-    100%
-    {
-      transform:scaleX(0);
-    transform-origin: right;
-      
-    }
-    
-    
-  }
-
-
-  .bb::before, .bb::after, .bb {
-    /* position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0; */
-  }
-  
-  .bb {
-    /* width: 200px;
-    height: 200px;
-    margin: auto; */
-    /* background: url("//blog.codepen.io/wp-content/uploads/2012/06/Button-White-Large.png") no-repeat 50%/70% rgba(0, 0, 0, 0.1); */
-    /* color: #69ca62; */
-    box-shadow: inset 0 0 0 1px rgba(105, 202, 98, 0.5);
-  }
-  .bb::before, .bb::after {
-    content: "";
-    z-index: -1;
-    margin: -5%;
-    box-shadow: inset 0 0 0 2px;
-    animation: clipMe 8s linear infinite;
-  }
-  .bb::before {
-    animation-delay: -4s;
-  }
-  .bb:hover::after, .bb:hover::before {
-    background-color: rgba(255, 0, 0, 0.3);
-  }
-  
-  @keyframes clipMe {
-    0%, 100% {
-      clip: rect(0px, 220px, 2px, 0px);
-    }
-    25% {
-      clip: rect(0px, 2px, 220px, 0px);
-    }
-    50% {
-      clip: rect(218px, 220px, 220px, 0px);
-    }
-    75% {
-      clip: rect(0px, 220px, 220px, 218px);
-    }
-  }
