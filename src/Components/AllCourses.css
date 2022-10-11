@@ -3,7 +3,7 @@
 }
 .Card_Div{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     width: 90%;
     margin-left: 70px;
@@ -12,7 +12,7 @@
 }
 .Card_Div_2{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     width: 90%;
     margin-left: 70px;

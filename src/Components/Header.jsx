@@ -3,8 +3,9 @@ import "./header.css";
 import { TypeAnimation } from "react-type-animation";
 import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
 import Button from "@mui/material/Button";
+import { Link } from "react-router-dom";
 
-const Header = () => {
+const Headers = () => {
   return (
     <header>
       <Navbar className="Navbar" collapseOnSelect expand="lg" variant="dark">
@@ -24,13 +25,34 @@ const Header = () => {
                 title="Courses"
                 id="collasible-nav-dropdown"
               >
-                <NavDropdown.Item href="#action/3.1">
-                  Blockchain
+                <NavDropdown.Item>
+                  {" "}
+                  <Link
+                    style={{ textDecoration: "none", color: "black" }}
+                    to="/blockchain"
+                  >
+                    Blockchain
+                  </Link>{" "}
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">
-                  Metaverse
+
+                <NavDropdown.Item>
+                  {" "}
+                  <Link
+                    to="/meta"
+                    style={{ textDecoration: "none", color: "black" }}
+                  >
+                    Metaverse
+                  </Link>{" "}
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">AR/VR</NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.3">
+                  {" "}
+                  <Link
+                    style={{ textDecoration: "none", color: "black" }}
+                    to="/ar-vr"
+                  >
+                    AR/VR
+                  </Link>{" "}
+                </NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.3">AI/ML</NavDropdown.Item>
               </NavDropdown>
               <NavDropdown
@@ -74,20 +96,22 @@ const Header = () => {
                 {/* margin */}
               </Nav.Link>
             </Nav>
-            <Button
-              variant="contained"
-              style={{
-                borderRadius: "50px",
-                backgroundColor: "rgb(56, 72, 241)",
-              }}
-            >
-              Sign Up
-            </Button>
+            <Link to="/form">
+              <Button
+                variant="contained"
+                style={{
+                  borderRadius: "50px",
+                  backgroundColor: "rgb(56, 72, 241)",
+                }}
+              >
+                Register
+              </Button>
+            </Link>
           </Navbar.Collapse>
         </Container>
       </Navbar>
       <hero>
-        <div className="container col-xxl-12 px-4 py-5">
+        <div className="container-new col-xxl-12 px-4 py-5">
           <div className="row align-items-center g-5 py-5">
             <div className="col-lg-6">
               <h1 className="title">Courses Available</h1>
@@ -137,4 +161,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Headers;

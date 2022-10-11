@@ -24,7 +24,7 @@ hero{
 h1{
     color:rgb(239, 67, 207);
 }
-.container{
+.container-new{
     display: flex;
     flex-direction: left;
 }

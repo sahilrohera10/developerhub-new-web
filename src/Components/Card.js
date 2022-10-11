@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Card.css";
 export default function card(props) {
   return (
@@ -12,7 +13,9 @@ export default function card(props) {
         <div style={{ width: "280px", color: "black" }}>
           <p>{props.data.text}</p>
           {/* <p>Provident consectetur natus voluptatem quis tenetur sed beatae eius sint.</p> */}
-          <button className="button-new">Read More</button>
+          <Link to={props.data.link}>
+            <button className="button-new">Read More</button>
+          </Link>
         </div>
       </div>
     </div>

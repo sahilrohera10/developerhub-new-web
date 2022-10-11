@@ -2,3 +2,9 @@ body{
   background-color:#0D0628 ;
   overflow-x: hidden;
 }
+.gradient__text {
+  background: var(--gradient-text);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
