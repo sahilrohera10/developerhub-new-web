@@ -2,6 +2,7 @@ import React from "react";
 import "./header.css";
 import { TypeAnimation } from "react-type-animation";
 import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
+import Dropdown from 'react-bootstrap/Dropdown';
 import Button from "@mui/material/Button";
 import { Link } from "react-router-dom";
 
@@ -96,8 +97,7 @@ const Headers = () => {
                 {/* margin */}
               </Nav.Link>
             </Nav>
-            <Link to="/form">
-              <Button
+              {/* <Button
                 variant="contained"
                 style={{
                   borderRadius: "50px",
@@ -105,8 +105,24 @@ const Headers = () => {
                 }}
               >
                 Register
-              </Button>
-            </Link>
+              </Button> */}
+              <Dropdown >
+              <Dropdown.Toggle variant="success" id="dropdown-basic" style={{
+                  borderRadius: "50px",
+                  backgroundColor: "rgb(56, 72, 241)",
+                }}>
+                REGISTER
+              </Dropdown.Toggle>
+
+              <Dropdown.Menu>
+                <Dropdown.Item href="#/action-1">Admin</Dropdown.Item>
+              <Link Link to="/form" style={{textDecoration:'none',}}>
+
+                <Dropdown.Item href="#/action-2" >Others</Dropdown.Item>
+                </Link>
+              </Dropdown.Menu>
+            </Dropdown>
+            
           </Navbar.Collapse>
         </Container>
       </Navbar>
