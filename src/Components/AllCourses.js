@@ -11,7 +11,7 @@ const CardArray = [
   {
     img: "AI_ML.png",
     text: "AI/ML—short for artificial intelligence (AI) and machine learning (ML)—represents an important evolution in computer science and data processing that is quickly transforming a vast array of industries",
-    link: "/blockchain",
+    link: "/aiml",
   },
 ];
 const CardArray2 = [

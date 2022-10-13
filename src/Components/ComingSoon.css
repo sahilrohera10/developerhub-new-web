@@ -1,0 +1,8 @@
+.coming{
+    width: 45vw;
+    height: 45vw;
+}
+.comingDiv{
+    display: flex;
+    justify-content: center;
+}
