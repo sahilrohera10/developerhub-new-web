@@ -113,7 +113,7 @@ const Headers = () => {
       <hero>
         <div className="container-new col-xxl-12 px-4">
           <div className="row align-items-center g-5">
-            <div className="col-lg-6">
+            <div className="col-lg-6 header-content-div">
               <h1 className="title">Courses Available</h1>
 
               <TypeAnimation

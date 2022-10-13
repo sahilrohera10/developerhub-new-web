@@ -70,17 +70,11 @@ div{
         font-weight: 700;
 }
 
-#responsive-navbar-nav{
-    flex-basis: 100%;
-    flex-grow: 1;
-    align-items: center;
-    position: absolute;
-    top: 75%;
-    background: black;
-    width: 90%;
-    padding: 10px;
-    z-index: 100;
+.header-content-div{
+    margin-top: 240px;
 }
+
+
 
 
 @media (max-width: 954px){
@@ -99,12 +93,30 @@ div{
     .title{
         font-size: 50px;
     }
+    #responsive-navbar-nav{
+        flex-basis: 100%;
+        flex-grow: 1;
+        align-items: center;
+        position: absolute;
+        top: 75%;
+        background: black;
+        width: 90%;
+        padding: 10px;
+        z-index: 100;
+    }
+
+    .header-content-div{
+        margin-top: 150px;
+    }
 }
 @media screen and (max-width : 500px) {
 
     .typeAnimation{
         font-size: 58px;
        
+}
+.header-content-div{
+    margin-top: 100px;
 }
     
 }
@@ -126,6 +138,9 @@ div{
     }
     .typeAnimation{
         font-size: 48px;
+    }
+    .header-content-div{
+        margin-top: 50px;
     }
       
 }
