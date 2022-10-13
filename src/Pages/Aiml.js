@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
+
 import aimlImg from "../assets/Aiml.png";
 import aimlVd from "../assets/Aiml.mp4";
 
 const Aiml = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="main_body">
       <div className="header">

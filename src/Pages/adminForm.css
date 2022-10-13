@@ -1,0 +1,80 @@
+.Container{
+    margin-top: 19px;
+    height: auto;
+    border: solid;
+    background-color:whitesmoke;
+}
+.img{
+    height: 29em;
+    margin: auto;
+    padding: auto;
+
+
+}
+.dep_courses{
+    margin-left:-50px;
+}
+.dep_partner{
+    margin-left:-50px;
+}
+.access_control{
+    margin-left: 1px;
+}
+/* @media (min-width: 768px) and (max-width: 1024px)
+{
+    .img{
+        position: relative;
+        right: 8rem;
+    }
+    .dep_courses{
+        margin-left:-50px;
+    }
+    .dep_partner{
+        margin-left:-50px;
+    }
+} */
+
+
+@media (max-width: 760px) {
+
+.dep_courses{
+        display: flex;    
+        flex-direction: row;    
+        margin-left: auto;
+        margin-right: '-500px';
+
+    }
+    .Container{
+        margin-top: 19px;
+        height: auto;
+        border: 3px solid;
+        background-color:whitesmoke;
+        width:100%;
+        padding-right:100px;
+        margin:60px
+    }
+    .dep_courses{
+        margin-left:auto;
+    }
+    .dep_partner{
+        margin-left:auto;
+    }
+}
+
+@media (max-width: 400px) {
+    .img{
+        display: block;
+        margin:auto;
+        width: 300px;
+    }
+    .dep_courses{
+        display: none;
+        margin-left:auto;
+    }
+    .dep_courses{
+        margin-left:-50px;
+    }
+    .dep_partner{
+        margin-left:-50px;
+    }
+}
