@@ -70,7 +70,7 @@ h1{
 }
 
 .header-content-div{
-    margin-top: 240px;
+    margin-top: 300px;
 }
 
 
@@ -117,6 +117,9 @@ h1{
 .header-content-div{
     margin-top: 100px;
 }
+.header-content-div{
+    margin-top: 180px;
+}
     
 }
 @media (max-width: 400px) {
@@ -138,9 +141,9 @@ h1{
     .typeAnimation{
         font-size: 48px;
     }
-    .header-content-div{
-        margin-top: 50px;
-    }
+    /* .header-content-div{
+        margin-top: 150px;
+    } */
       
 }
 
