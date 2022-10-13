@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 export default function NavComponent(props) {
   const [sidebar, setSidebar] = useState("none");
   const showSidebar = () => {
-    if (sidebar == "none") {
+    if (sidebar === "none") {
       setSidebar("block");
     } else {
       setSidebar("none");

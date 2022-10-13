@@ -4,6 +4,7 @@ import { TypeAnimation } from "react-type-animation";
 import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
 import Dropdown from "react-bootstrap/Dropdown";
 import Button from "@mui/material/Button";
+import { Link } from "react-router-dom";
 
 const Headers = () => {
   return (
@@ -39,17 +40,22 @@ const Headers = () => {
                 toolkit.
               </p>
               <div className="d-grid gap-2 d-md-flex justify-content-md-start">
-                <Button
-                  className="header-btn"
-                  variant="contained"
-                  style={{
-                    marginRight: "10px",
-                    borderRadius: "50px",
-                    backgroundColor: "rgb(56, 72, 241)",
-                  }}
+                <Link
+                  to="/blockchain"
+                  style={{ textDecoration: "none", color: "white" }}
                 >
-                  Courses
-                </Button>
+                  <Button
+                    className="header-btn"
+                    variant="contained"
+                    style={{
+                      marginRight: "10px",
+                      borderRadius: "50px",
+                      backgroundColor: "rgb(56, 72, 241)",
+                    }}
+                  >
+                    Courses
+                  </Button>
+                </Link>
               </div>
             </div>
           </div>
