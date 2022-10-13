@@ -1,14 +1,31 @@
-import React from "react";
+import React, { useState } from "react";
 import "./header.css";
 import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
 import Dropdown from "react-bootstrap/Dropdown";
 import { Link } from "react-router-dom";
 
 export default function NavComponent(props) {
+  const [sidebar, setSidebar] = useState("none");
+  const showSidebar = () => {
+    if (sidebar == "none") {
+      setSidebar("block");
+    } else {
+      setSidebar("none");
+    }
+    console.log("in nav");
+  };
+  const hideSidebar = () => {
+    console.log("in nav");
+    setSidebar("none");
+  };
   return (
     <Navbar className="Navbar" collapseOnSelect expand="lg" variant="dark">
       <Container>
-        <Navbar.Brand className="Navbar_Brand" href="#home">
+        <Navbar.Brand
+          onClick={hideSidebar}
+          className="Navbar_Brand"
+          href="#home"
+        >
           <Link to="/" style={{ textDecoration: "none", color: "white" }}>
             <b>
               <logo>//</logo>
@@ -16,8 +33,14 @@ export default function NavComponent(props) {
             </b>
           </Link>
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
+        <Navbar.Toggle
+          aria-controls="responsive-navbar-nav"
+          onClick={showSidebar}
+        />
+        <Navbar.Collapse
+          id="responsive-navbar-nav"
+          style={{ display: sidebar }}
+        >
           <Nav className="me-auto">{/* //siderow */}</Nav>
           <Nav className="navcontent">
             <NavDropdown
@@ -25,7 +48,7 @@ export default function NavComponent(props) {
               title="Courses"
               id="collasible-nav-dropdown"
             >
-              <NavDropdown.Item>
+              <NavDropdown.Item onClick={hideSidebar}>
                 {" "}
                 <Link
                   style={{ textDecoration: "none", color: "black" }}
@@ -35,7 +58,7 @@ export default function NavComponent(props) {
                 </Link>{" "}
               </NavDropdown.Item>
 
-              <NavDropdown.Item>
+              <NavDropdown.Item onClick={hideSidebar}>
                 {" "}
                 <Link
                   to="/meta"
@@ -44,7 +67,7 @@ export default function NavComponent(props) {
                   Metaverse
                 </Link>{" "}
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">
+              <NavDropdown.Item onClick={hideSidebar}>
                 {" "}
                 <Link
                   style={{ textDecoration: "none", color: "black" }}
@@ -53,7 +76,7 @@ export default function NavComponent(props) {
                   AR/VR
                 </Link>{" "}
               </NavDropdown.Item>
-              <NavDropdown.Item>
+              <NavDropdown.Item onClick={hideSidebar}>
                 {" "}
                 <Link
                   to="/aiml"
@@ -69,7 +92,7 @@ export default function NavComponent(props) {
               title="Segment"
               id="collasible-nav-dropdown"
             >
-              <NavDropdown.Item>
+              <NavDropdown.Item onClick={hideSidebar}>
                 {" "}
                 <Link
                   to="/coming"
@@ -78,7 +101,7 @@ export default function NavComponent(props) {
                   University
                 </Link>{" "}
               </NavDropdown.Item>
-              <NavDropdown.Item>
+              <NavDropdown.Item onClick={hideSidebar}>
                 {" "}
                 <Link
                   to="/coming"
@@ -87,7 +110,7 @@ export default function NavComponent(props) {
                   Corporate
                 </Link>{" "}
               </NavDropdown.Item>
-              <NavDropdown.Item>
+              <NavDropdown.Item onClick={hideSidebar}>
                 {" "}
                 <Link
                   to="/coming"
@@ -96,7 +119,7 @@ export default function NavComponent(props) {
                   Fresher
                 </Link>{" "}
               </NavDropdown.Item>
-              <NavDropdown.Item>
+              <NavDropdown.Item onClick={hideSidebar}>
                 {" "}
                 <Link
                   to="/coming"
@@ -111,7 +134,7 @@ export default function NavComponent(props) {
               title="Partner"
               id="collasible-nav-dropdown"
             >
-              <NavDropdown.Item>
+              <NavDropdown.Item onClick={hideSidebar}>
                 {" "}
                 <Link
                   to="/coming"
@@ -120,7 +143,7 @@ export default function NavComponent(props) {
                   Jobs
                 </Link>{" "}
               </NavDropdown.Item>
-              <NavDropdown.Item>
+              <NavDropdown.Item onClick={hideSidebar}>
                 {" "}
                 <Link
                   to="/coming"
@@ -129,7 +152,7 @@ export default function NavComponent(props) {
                   Projects
                 </Link>{" "}
               </NavDropdown.Item>
-              <NavDropdown.Item>
+              <NavDropdown.Item onClick={hideSidebar}>
                 {" "}
                 <Link
                   to="/coming"
@@ -138,7 +161,7 @@ export default function NavComponent(props) {
                   Internship
                 </Link>{" "}
               </NavDropdown.Item>
-              <NavDropdown.Item>
+              <NavDropdown.Item onClick={hideSidebar}>
                 {" "}
                 <Link
                   to="/coming"
@@ -147,7 +170,7 @@ export default function NavComponent(props) {
                   R&D
                 </Link>{" "}
               </NavDropdown.Item>
-              <NavDropdown.Item>
+              <NavDropdown.Item onClick={hideSidebar}>
                 {" "}
                 <Link
                   to="/coming"
@@ -156,7 +179,7 @@ export default function NavComponent(props) {
                   Incubation
                 </Link>{" "}
               </NavDropdown.Item>
-              <NavDropdown.Item>
+              <NavDropdown.Item onClick={hideSidebar}>
                 {" "}
                 <Link
                   to="/coming"
@@ -195,7 +218,7 @@ export default function NavComponent(props) {
             </Dropdown.Toggle>
 
             <Dropdown.Menu>
-              <Dropdown.Item>
+              <Dropdown.Item onClick={hideSidebar}>
                 {" "}
                 <Link
                   to="/adminForm"
@@ -205,7 +228,7 @@ export default function NavComponent(props) {
                 </Link>{" "}
               </Dropdown.Item>
               <Link Link to="/form" style={{ textDecoration: "none" }}>
-                <Dropdown.Item href="#/action-2">Others</Dropdown.Item>
+                <Dropdown.Item onClick={hideSidebar}>Others</Dropdown.Item>
               </Link>
             </Dropdown.Menu>
           </Dropdown>

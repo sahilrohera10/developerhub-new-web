@@ -60,10 +60,16 @@
         margin-left:auto;
     }
 }
+@media  (max-width : 500px) {
+    .img{
+        /* display : "none" */
+        height: 10em;
+    }
+}
 
 @media (max-width: 400px) {
     .img{
-        display: block;
+        display: none;
         margin:auto;
         width: 300px;
     }
