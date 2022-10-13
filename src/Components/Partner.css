@@ -28,17 +28,24 @@
     }
     
   }
-  @media screen and (max-width : 550px) {
+  @media screen and (max-width : 426px) {
 
     .adWrapper{
-        margin-left: 50px;
+        margin-left: 20px;
     }
     
   }
-  @media screen and (max-width : 350px) {
+  @media screen and (max-width : 376px) {
 
     .adWrapper{
-        margin-left: 35px;
+        margin-left: 15px;
+    }
+    
+  }
+  @media screen and (max-width : 320px) {
+
+    .adWrapper{
+        margin-left: 15px;
     }
     
   }

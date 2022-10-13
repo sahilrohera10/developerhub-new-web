@@ -200,3 +200,21 @@
 
 }
 
+@media screen and (max-width : 320px) {
+
+  .new-card{
+    width: 85%;
+    height: 285px;
+  }
+  .front-new{
+    width: 85%;
+    height: 285px;
+  }
+  
+  .back-new{
+    width: 85%;
+    height: 285px;
+  }
+  
+  
+}

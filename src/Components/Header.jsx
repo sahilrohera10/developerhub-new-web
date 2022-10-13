@@ -111,8 +111,8 @@ const Headers = () => {
         </Container>
       </Navbar>
       <hero>
-        <div className="container-new col-xxl-12 px-4 py-5">
-          <div className="row align-items-center g-5 py-5">
+        <div className="container-new col-xxl-12 px-4">
+          <div className="row align-items-center g-5">
             <div className="col-lg-6">
               <h1 className="title">Courses Available</h1>
 

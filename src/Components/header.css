@@ -70,6 +70,18 @@ div{
         font-weight: 700;
 }
 
+#responsive-navbar-nav{
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+    position: absolute;
+    top: 75%;
+    background: black;
+    width: 90%;
+    padding: 10px;
+    z-index: 100;
+}
+
 
 @media (max-width: 954px){
     header{
@@ -116,4 +128,10 @@ div{
         font-size: 48px;
     }
       
+}
+
+@media screen and (max-width : 321px) {
+
+    
+    
 }
