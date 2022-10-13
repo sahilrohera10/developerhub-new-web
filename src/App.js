@@ -8,10 +8,12 @@ import Blockchain from "./Pages/Blockchain";
 import Ar_vr from "./Pages/Ar_vr";
 import Footer from "./Components/Footer";
 import MetaPage from "./Pages/MetaPage";
+import NavComponent from "./Components/NavbarComponent";
 
 function App() {
   return (
     <div className="App">
+      <NavComponent/>
       <Routes>
         <Route path="/" element={<LandingPage />}></Route>
         <Route path="/form" element={<FormBasic />}></Route>
