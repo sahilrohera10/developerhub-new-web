@@ -1,0 +1,127 @@
+.blog_main_body {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 100px;
+}
+.blog_sub_body {
+  width: 94vw;
+  justify-content: space-evenly;
+  align-items: center;
+  display: flex;
+  gap: 2rem;
+  padding: 1rem;
+}
+.blog_container {
+  width: 350px;
+  height: 560px;
+  padding: 0.5rem;
+  padding-bottom: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px 0 rgb(26, 20, 64), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
+  gap: 0.5rem;
+  background-color: rgb(16, 32, 54);
+}
+.blog_subcontainer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-evenly;
+  padding: 0.25rem;
+  gap: 0.5rem;
+}
+.Upper {
+  justify-content: center;
+  align-self: center;
+  height: 50%;
+  width: 100%;
+  
+}
+.Upper_img {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.8rem;
+  filter: brightness(0.9);
+  padding: 0.25rem;
+  margin-top: 1.28rem;
+
+}
+.Upper_img:hover{
+     padding: 0%;
+}
+.Lower {
+  height: 50%;
+  padding: 0.25rem;
+  justify-content: center;
+  align-items: center;
+}
+.Lower_content {
+  height: 100%;
+  padding: 1rem;
+  text-align: justify;
+  color: aliceblue;
+  font-size: large;
+  font-family: var(--font-family);
+  font-weight: 600;
+}
+.blog_button button {
+  font-weight: 600;
+  font-size: larger;
+  color: aliceblue;
+  padding: 0.2rem;
+  padding: 0.5rem;
+  background-color: rgb(124, 43, 177);
+  border-radius: 0.25rem;
+}
+.blog_button button:hover {
+  background-color: rgb(6, 214, 20);
+  
+}
+@media screen and (max-width: 1100px) {
+  .Lower_content {
+    font-size: medium;
+  }
+}
+@media screen and (max-width: 970px) {
+  .blog_button button {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .blog_sub_body {
+    flex-wrap: wrap;
+  }
+  .blog_container {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 740px) {
+  .blog_container {
+    width: 250px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .blog_container {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 325px) {
+    .blog_container{
+        height: 440px;
+    }
+    .Lower_content {
+        font-size: 13.5px;
+      }
+      .blog_button button {
+        font-size: 13px;
+      }
+}
