@@ -227,9 +227,16 @@ export default function NavComponent(props) {
                   Admin
                 </Link>{" "}
               </Dropdown.Item>
-              <Link Link to="/form" style={{ textDecoration: "none" }}>
-                <Dropdown.Item onClick={hideSidebar}>Others</Dropdown.Item>
-              </Link>
+
+              <Dropdown.Item onClick={hideSidebar}>
+                {" "}
+                <Link
+                  to="/form"
+                  style={{ textDecoration: "none", color: "black" }}
+                >
+                  Others
+                </Link>
+              </Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>
         </Navbar.Collapse>
