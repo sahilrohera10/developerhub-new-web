@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 
 import aimlImg from "../assets/Aiml.png";
 import aimlVd from "../assets/Aiml.mp4";
+import Download from "../Components/Download";
 
 const Aiml = () => {
   useEffect(() => {
@@ -68,6 +69,7 @@ const Aiml = () => {
           </div>
         </div>
       </div>
+      <Download Name = "Blockchain.pdf" Title = "AI-ML" Description = "AI/ML course is an amalgamation of comprehensive and rigorous curriculum." />
     </div>
   );
 };

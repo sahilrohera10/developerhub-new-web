@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 // import "./ar_vr.css";
 import arVr from "../assets/AR_VR-new.png";
 import arVrMp4 from "../assets/AR_VR.mp4";
+import Download from "../Components/Download";
 const Ar_vr = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -64,6 +65,7 @@ const Ar_vr = () => {
           </div>
         </div>
       </div>
+      <Download  Name = "Blockchain.pdf" Title = "AR-VR" Description = " AR/VR course is a great course for you if you want to take your imagination & creative skills to the next level. " />
     </div>
   );
 };

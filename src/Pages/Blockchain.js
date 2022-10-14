@@ -71,7 +71,7 @@ const Blockchain = () => {
         </div>
       </div>
 
-      <Download />
+      <Download Name = "Blockchain.pdf" Title = "Blockchain" Description = " Blockchain technology courses for Multichain, Hyperledger, Ethereum and Stellar etc. amongst others."  />
     </div>
   );
 };

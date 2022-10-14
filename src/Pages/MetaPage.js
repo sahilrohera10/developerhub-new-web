@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import metaImg from "../assets/meta.png";
 import metaVd from "../assets/metaVd.mp4";
+import Download from "../Components/Download";
 
 const MetaPage = () => {
   useEffect(() => {
@@ -80,6 +81,7 @@ const MetaPage = () => {
           </div>
         </div>
       </div>
+      <Download Name = "Metaverse Master classes.pdf" Title = "Metaverse" Description = "Metaverse development course that includes a 3D character developing avatars. " />
     </div>
   );
 };
