@@ -164,9 +164,24 @@ const AdminForm = () => {
           </Row>
      <Row>
       <div className="access_control">
-
+      <FormControl sx={{ m: 1, width: 218 }}>
+              <InputLabel id="demo-simple-select-autowidth-label">
+                Admin
+              </InputLabel>
+              <Select
+                labelId="demo-simple-select-autowidth-label"
+                id="demo-simple-select-autowidth"
+                value={type}
+                onChange={handleOnChange}
+                label="Admin"
+              >
+                <MenuItem value="superadmin">Super Admin</MenuItem>
+                <MenuItem value="sub">Sub-Super Admin </MenuItem>
+                <MenuItem value="sub1">Sub Sub-Super Admin</MenuItem>
+              </Select>
+            </FormControl>
      
-        <FormControl sx={{ m: 1, width: 450 }}>
+        <FormControl sx={{ m: 1, width: 220 }}>
         <InputLabel id="demo-multiple-chip-label">Access Rights</InputLabel>
         <Select
           labelId="demo-multiple-chip-label"
@@ -195,25 +210,11 @@ const AdminForm = () => {
           ))}
         </Select>
       </FormControl>
+      
       </div>
           </Row>
           <Row style={{ marginLeft: "1px" }}>
-            <FormControl sx={{ m: 1, width: 450 }}>
-              <InputLabel id="demo-simple-select-autowidth-label">
-                Admin
-              </InputLabel>
-              <Select
-                labelId="demo-simple-select-autowidth-label"
-                id="demo-simple-select-autowidth"
-                value={type}
-                onChange={handleOnChange}
-                label="Admin"
-              >
-                <MenuItem value="superadmin">Super Admin</MenuItem>
-                <MenuItem value="sub">Sub-Super Admin </MenuItem>
-                <MenuItem value="sub1">Sub Sub-Super Admin</MenuItem>
-              </Select>
-            </FormControl>
+           
           </Row>
           {/* if user select as sub or sub super admin */}
           <Row>
@@ -363,7 +364,7 @@ const AdminForm = () => {
           </Row>
           {/* if user select superadmin */}
           {restContentVisible && <div className="rest_content"></div>}
-          <FormControl sx={{ m: 1, minWidth: 450 }}>
+          <FormControl sx={{ m: 1, width: 218 }}>
             <InputLabel id="demo-simple-select-autowidth-label">
               Networking Zone
             </InputLabel>

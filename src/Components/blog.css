@@ -82,7 +82,7 @@
   border-radius: 0.25rem;
 }
 .blog_button button:hover {
-  background-color: rgb(6, 214, 20);
+  /* background-color: rgb(6, 214, 20); */
   
 }
 @media screen and (max-width: 1100px) {

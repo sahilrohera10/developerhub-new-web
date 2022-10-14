@@ -13,7 +13,7 @@ const Headers = () => {
         <div className="container-new col-xxl-12 px-4">
           <div className="row align-items-center g-5">
             <div className="col-lg-6 header-content-div">
-              <h1 className="title">Courses Available</h1>
+              {/* <h1 className="title">Courses Available</h1> */}
 
               <TypeAnimation
                 className="typeAnimation"
@@ -35,9 +35,8 @@ const Headers = () => {
                 // className="typing-annimation"
               />
               <p className="lead">
-                Quickly design and customize responsive mobile-first sites with
-                Bootstrap, the world’s most popular front-end open source
-                toolkit.
+                Let's go invent tomorrow instead of worring about what happened
+                yesterday.
               </p>
               <div className="d-grid gap-2 d-md-flex justify-content-md-start">
                 <Link

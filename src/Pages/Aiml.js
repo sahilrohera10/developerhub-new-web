@@ -22,16 +22,15 @@ const Aiml = () => {
 
       <div className="sub_body">
         <p className="Landing_content">
+          Our{" "}
           <span className="gradient__text" style={{ fontSize: "24px" }}>
-            AI/ML
-          </span>
-          &nbsp;short for artificial intelligence (AI) and machine learning
-          (ML)—represents an important evolution in computer science and data
-          processing that is quickly transforming a vast array of industries.
-          Artificial intelligence generally refers to processes and algorithms
-          that are able to simulate human intelligence, including mimicking
-          cognitive functions such as perception, learning and problem solving.
-          Machine learning and deep learning (DL) are subsets of AI.
+            Artificial Intelligence and Machine Learning
+          </span>{" "}
+          i.e., AI/ML offers comprehensive and rigorous curriculum. It covers
+          all major concepts and technologies that have some role in AI/ML. The
+          new and exciting world of AI/ML has huge market which according to
+          various sources grew to USD 58.3 billion in 2021 and set to go up to
+          USD 309.6 billion by 2026.
         </p>
       </div>
       <div className="sub_body">
@@ -44,29 +43,27 @@ const Aiml = () => {
           <div className="upper">
             <h3 className="gradient__text">FUTURE OF AI/ML</h3>
             <p className="upper_content">
-              Data is an increasingly important business asset, with the amount
-              of data generated and stored globally growing at an exponential
-              rate. Of course, collecting data is pointless if you don’t do
-              anything with it, but these enormous floods of data are simply
-              unmanageable without automated systems to help. Artificial
-              intelligence, machine learning and deep learning give
-              organizations a way to extract value out of the troves of data
-              they collect, delivering business insights, automating tasks and
-              advancing system capabilities.
+              The demand for AI talent pool high as the governments are moving
+              towards digitization. Even private organizations are accelerating
+              their digital transformation initiatives to meet the modern-day
+              requirements.
             </p>
             <hr style={{ width: "95%", marginLeft: "1rem" }} />
             <br />
             <h4 id="heading" className="gradient__text">
-              USE CASES
+              Uniquely Placed AI/ML Course
             </h4>
             <p>
-              AI/ML is being used in healthcare applications to increase
-              clinical efficiency, boost diagnosis speed and accuracy, and
-              improve patient outcomes. Telecommunications In the
-              telecommunications industry, machine learning is increasingly
-              being used to gain insight into customer behavior, enhance
-              customer experiences, and to optimize 5G network performance,
-              among other things.
+              Our fundamental goal with the course is to help you develop skills
+              that are key in Artificial Intelligence and Machine Learning.
+              Whether you are a fresher or a working professional, you would
+              develop an understanding of AI & ML and shape your career in the
+              industry. <br />
+              We will further help you master the fundamental concepts of AI/ML
+              technologies. Apart from Deep Learning, regression techniques you
+              would also learn Machine Learning algorithms. <br />
+              Nonetheless, with these courses and hundreds of practical use
+              cases and industry projects you will gain the required skills.
             </p>
           </div>
         </div>

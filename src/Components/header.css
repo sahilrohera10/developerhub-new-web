@@ -23,7 +23,7 @@ hero{
     color:white;
 }
 h1{
-    color:rgb(239, 67, 207);
+    /* color:rgb(239, 67, 207); */
 }
 .container-new{
     display: flex;
@@ -73,6 +73,10 @@ h1{
     margin-top: 300px;
 }
 
+.lead{
+    font-size: 25px;
+    font-weight: 550;
+}
 
 
 

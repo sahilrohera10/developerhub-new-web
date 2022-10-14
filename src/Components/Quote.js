@@ -5,8 +5,11 @@ export default function Quote() {
   return (
     <div className="about">
       <p className="about-up">
-        <span style={{ color: "#9340FF" }}>Kinnectric</span> is a startup
-        looking to change the way people connect.
+        <span style={{ color: "#9340FF" }}>
+          Blockchain, Metaverse, AR/VR and AI/ML
+        </span>{" "}
+        are not just buzzwords but the future of the technology that we depend
+        lot upon.
       </p>
       <hr
         style={{
@@ -19,21 +22,11 @@ export default function Quote() {
       />
 
       <p className="about-down">
-        Our mobile app is built to seek, forge, and grow links between you,
-        people you know, and people you want to know. With multiple startups
-        under our belt, the team behind Kinnectric is working hard to bring you
-        the only social app you will ever need.
+        These technologies are shaping future of the world and offer exclusive
+        career opportunities for skilled professionals. However, to make a
+        career in the futuristic technologies like these you need to be on the
+        top of technology courses.
       </p>
-
-      {/* <div>
-
-<p  className="course-content" >Virtual Reality (VR) is a computer-generated environment with scenes and objects that appear to be real, making the user feel they are immersed in their surroundings.</p>
-
-<button className='explore-btn' > <p className='btn-content' >Explore 🚀</p> </button>
-        </div>
-
-
-<img className='ar-img' src="ar-img.jpeg" alt="" /> */}
     </div>
   );
 }

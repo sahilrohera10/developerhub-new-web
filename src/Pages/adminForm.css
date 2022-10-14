@@ -6,7 +6,7 @@
 }
 .img{
     height: 29em;
-    margin: auto;
+    margin-left: -100px;
     padding: auto;
 
 
@@ -17,8 +17,9 @@
 .dep_partner{
     margin-left:-50px;
 }
-.access_control{
+.access_control FormControl{
     margin-left: 1px;
+    width: 50px;
 }
 /* @media (min-width: 768px) and (max-width: 1024px)
 {
@@ -35,7 +36,7 @@
 } */
 
 
-@media (max-width: 760px) {
+@media (max-width: 1199px) {
 
 .dep_courses{
         display: flex;    
@@ -54,33 +55,81 @@
         margin:60px
     }
     .dep_courses{
-        margin-left:auto;
+        margin-left:50px;
     }
     .dep_partner{
-        margin-left:auto;
+        margin-left:50px;
     }
-}
-@media  (max-width : 500px) {
     .img{
-        /* display : "none" */
-        height: 10em;
+        display: block;
+        margin:auto;
+        width: 300px;
+    }
+    .access_control{
+        display: block;
+        /* width: -50px !important;
+         */
+         /* margin-left:-10px; */
+        
     }
 }
+@media (max-width: 706px) {
 
-@media (max-width: 400px) {
+    .dep_courses{
+            display: flex;    
+            flex-direction: row;    
+            margin-left: auto;
+            margin-right: '-500px';
+    
+        }
+        .Container{
+            margin-top: 19px;
+            height: auto;
+            border: 3px solid;
+            background-color:whitesmoke;
+            width:100%;
+            padding-right:100px;
+            margin:60px
+        }
+        .dep_courses{
+            margin-left:auto;
+        }
+        .dep_partner{
+            margin-left:auto;
+        }
+        .img{
+            display: block;
+            margin:auto;
+            width: 300px;
+        }
+        .access_control{
+            display: block;
+            /* width: -50px !important;
+             */
+             /* margin-left:-10px; */
+            
+        }
+    }
+    
+@media (min-width:258px) and ( max-width: 400px) {
     .img{
-        display: none;
+        display: block;
         margin:auto;
         width: 300px;
     }
     .dep_courses{
-        display: none;
-        margin-left:auto;
+      margin-left: -50px;
+        
     }
     .dep_courses{
         margin-left:-50px;
     }
     .dep_partner{
         margin-left:-50px;
+    }
+    .access_control{
+        display: block;
+        width: 4% !important;
+        
     }
 }

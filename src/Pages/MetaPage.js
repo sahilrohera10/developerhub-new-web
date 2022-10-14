@@ -21,18 +21,16 @@ const MetaPage = () => {
 
       <div className="sub_body">
         <p className="Landing_content">
-          &nbsp; To help you get a sense of how vague and complex a term{" "}
+          {/* &nbsp; To help you get a sense of how vague and complex a term{" "}
           <span className="gradient__text" style={{ fontSize: "24px" }}>
             Metaverse
-          </span>{" "}
-          can be, here's an exercise: Mentally replace the phrase “the
-          metaverse” in a sentence with “cyberspace.” Ninety percent of the
-          time, the meaning won't substantially change. That's because the term
-          doesn't really refer to any one specific type of technology, but
-          rather a broad (and often speculative) shift in how we interact with
-          technology. And it's entirely possible that the term itself will
-          eventually become just as antiquated, even as the specific technology
-          it once described becomes commonplace.
+          </span>{" "} */}
+          According to GlobalData, the global metaverse space set to grow to a
+          $996.42 billion industry by 2030. There is huge opportunity for
+          Metaverse developers; however, there is huge shortage of the trained
+          and skilled professionals. Nevertheless, our Metaverse course will
+          equip you with the required skills to become a successful Metaverse
+          developer.
         </p>
       </div>
       <div className="sub_body">
@@ -43,27 +41,41 @@ const MetaPage = () => {
         </div>
         <div className="sub_body_right">
           <div className="upper">
-            <h3 className="gradient__text">Future Of METAVERSE</h3>
+            <h3 className="gradient__text">What we give</h3>
             <p className="upper_content">
-              The paradox of defining the metaverse is that in order for it to
-              be the future, you have to define away the present. We already
-              have MMOs that are essentially entire virtual worlds, digital
-              concerts, video calls with people from all over the world, online
-              avatars, and commerce platforms. So in order to sell these things
-              as a new vision of the world, there has to be some element of it
-              that's new.
+              We will train you on Metaverse, a shared, online 3D space and what
+              are its practical uses for the businesses, and people. Metaverse
+              has emerged as a place where users can interact with each other
+              like they do in the actual world.
             </p>
             <hr style={{ width: "95%", marginLeft: "1rem" }} />
             <br />
             <h4 id="heading" className="gradient__text">
-              USE CASES
+              What you can expect
             </h4>
             <p>
-              Gaming industry is said to be one of the core and primary
-              investors of Metaverse technology.Travel and Tourism. Education
-              and Learning.Remote working.Real estate. Healthcare. Banking and
-              Finance.Social media and entertainment.
-            </p>
+              With computer-generated objects and avatars, Metaverse technology
+              has much more to offer the world than it currently offers, and you
+              could be the one who define it. Our course on Metaverse
+              development will open a whole new world of career opportunities as
+              you would be able to do the following:
+            </p>{" "}
+            <ol style={{ color: "white" }}>
+              <li style={{ marginBottom: "10px" }}>
+                You will learn how you can get started with Metaverse.
+              </li>
+              <li style={{ marginBottom: "10px" }}>
+                You will be able to explore different Use Cases to know the
+                potential in Metaverse technology.{" "}
+              </li>
+              <li style={{ marginBottom: "10px" }}>
+                You will be able to know what it means to be a Metaverse Expert
+                and how much remuneration to expect.
+              </li>
+              <li style={{ marginBottom: "10px" }}>
+                Practical expose to the technologies involved in Metaverse
+              </li>
+            </ol>
             <hr style={{ width: "95%", marginLeft: "1rem" }} />
           </div>
         </div>

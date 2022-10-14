@@ -4,25 +4,25 @@ import "./AllCourses.css";
 
 const CardArray = [
   {
-    img: "BlockchainImg.png",
-    text: "Blockchain is a shared, immutable ledger that facilitates the process of recording transactions and tracking assets in a business network.",
+    img: "BlockchainImg1.jpeg",
+    text: "Blockchain technology courses for Multichain, Hyperledger, Ethereum, and Stellar, etc. amongst others.",
     link: "/blockchain",
   },
   {
-    img: "AI_ML.png",
-    text: "AI/ML—short for artificial intelligence (AI) and machine learning (ML)—represents an important evolution in computer science and data processing that is quickly transforming a vast array of industries",
+    img: "AI_ML1.png",
+    text: "AI/ML course is an amalgamation of comprehensive and rigorous curriculum. It would cover key concepts and technologies of Artificial Intelligence and Machine Learning with higher utility value. ",
     link: "/aiml",
   },
 ];
 const CardArray2 = [
   {
-    img: "AR_VR.png",
-    text: "Augmented reality (AR) and Virtual Reality (VR) bridge the digital and physical worlds. They allow you to take in information and content visually, in the same way you take in the world.",
+    img: "AR_VR1.png",
+    text: "AR/VR course is a great course for you if you want to take your imagination & creative skills to the next level. ",
     link: "/ar-vr",
   },
   {
-    img: "MetaverseImg.png",
-    text: "In the metaverse, users traverse a virtual world that mimics aspects of the physical world using such technologies such as virtual reality (VR), augmented reality (AR), AI, social media and digital currency.",
+    img: "MetaverseImg1.png",
+    text: "Metaverse development course that includes a 3D character developing avatars and for that you need to be skilled in Blender, Maya, Cinema 4D, etc. amongst others. ",
     link: "/meta",
   },
 ];
