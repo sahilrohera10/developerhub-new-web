@@ -189,3 +189,13 @@
 }
     
 }
+.content {
+    align-items: center;
+    
+    border-radius: 1.5rem;
+    border-top-left-radius: 0;
+    gap: 1rem;
+    justify-content: center;
+    padding: 1rem;
+    
+}
