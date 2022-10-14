@@ -473,20 +473,14 @@ export default function FormBasic() {
                             component="form"
                             sx={{ display: "flex", flexWrap: "wrap" }}
                           >
-                            <FormControl sx={{ m: 1, minWidth: 120 }}>
-                              <TextField
-                                id="outlined-basic"
-                                label="PAN"
-                                variant="outlined"
-                              />
-                            </FormControl>
-                            <FormControl sx={{ m: 1, minWidth: 120 }}>
-                              <TextField
-                                id="outlined-basic"
-                                label="AADHAR"
-                                variant="outlined"
-                              />
-                            </FormControl>
+                             <Button variant="contained" component="label"  style={{margin:"2px"}} >
+                                 Upload PAN
+                               <input hidden accept="image/*" multiple type="file" />
+                              </Button>
+                              <Button variant="contained" component="label" style={{margin:"2px"}} >
+                                 Upload Aadhar
+                               <input hidden accept="image/*" multiple type="file" />
+                              </Button>
                           </Box>
                         </DialogContent>
                         <DialogActions>
@@ -951,20 +945,14 @@ export default function FormBasic() {
                             component="form"
                             sx={{ display: "flex", flexWrap: "wrap" }}
                           >
-                            <FormControl sx={{ m: 1, minWidth: 120 }}>
-                              <TextField
-                                id="outlined-basic"
-                                label="PAN"
-                                variant="outlined"
-                              />
-                            </FormControl>
-                            <FormControl sx={{ m: 1, minWidth: 120 }}>
-                              <TextField
-                                id="outlined-basic"
-                                label="AADHAR"
-                                variant="outlined"
-                              />
-                            </FormControl>
+                             <Button variant="contained" component="label"  style={{margin:"2px"}} >
+                                 Upload PAN
+                               <input hidden accept="image/*" multiple type="file" />
+                              </Button>
+                              <Button variant="contained" component="label" style={{margin:"2px"}} >
+                                 Upload Aadhar
+                               <input hidden accept="image/*" multiple type="file" />
+                              </Button>
                           </Box>
                         </DialogContent>
                         <DialogActions>
@@ -1216,20 +1204,14 @@ export default function FormBasic() {
                             component="form"
                             sx={{ display: "flex", flexWrap: "wrap" }}
                           >
-                            <FormControl sx={{ m: 1, minWidth: 120 }}>
-                              <TextField
-                                id="outlined-basic"
-                                label="PAN"
-                                variant="outlined"
-                              />
-                            </FormControl>
-                            <FormControl sx={{ m: 1, minWidth: 120 }}>
-                              <TextField
-                                id="outlined-basic"
-                                label="AADHAR"
-                                variant="outlined"
-                              />
-                            </FormControl>
+                            <Button variant="contained" component="label"  style={{margin:"2px"}} >
+                                 Upload PAN
+                               <input hidden accept="image/*" multiple type="file" />
+                              </Button>
+                              <Button variant="contained" component="label" style={{margin:"2px"}} >
+                                 Upload Aadhar
+                               <input hidden accept="image/*" multiple type="file" />
+                              </Button>
                           </Box>
                         </DialogContent>
                         <DialogActions>
