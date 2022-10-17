@@ -26,21 +26,21 @@ export default function Download(props) {
         <div className="download_image">
           <img src="folder.png" alt="NONE" className="image_" />
         </div>
-        <div className="content">
+        <div className="content-download">
           <div className="upper_content">
-            <p className="gradient__text" style={{"fontWeight":"700"}}>{props.Title}</p>
-            {" "}
-            <p className="subdiv-content">
-             {props.Description}{" "}
-            </p>
+            <p className="gradient__text" style={{ fontWeight: "700" }}>
+              {props.Title}
+            </p>{" "}
+            <p className="subdiv-content">{props.Description} </p>
           </div>
           <div className="lower_content">
-            
-            <Button variant="contained" onClick={onButtonClick} >Download Syllabus</Button>{" "}
+            <Button variant="contained" onClick={onButtonClick}>
+              Download Syllabus
+            </Button>{" "}
             {/* <AiOutlineCloudDownload size={25} style={{ marginLeft: "10px" }}/> */}
           </div>
         </div>
       </div>
     </div>
-);
+  );
 }
