@@ -3,10 +3,23 @@
     font-family: 'Poppins', sans-serif;
  
 }
+.navbar{
+    margin-top: -10px;
+    margin-bottom: -10px;
+    display: flex;
+    justify-content: space-between;
+    /* z-index: -1; */
 
-Navbar .Navbar{
+}
+.scroll{
+    margin-bottom:1px;
+    background:#0d0628;
+    
+}
+.Navbar{
    color:white;
   text-align: center;
+  z-index: 100;
 }
 logo{
     color:rgb(239, 67, 207);
@@ -15,15 +28,16 @@ logo{
 header{
     background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../assets/background.gif") no-repeat,center center fixed;
     background-size: cover;
-    height: 100vh;
+    height: 120vh;
     margin-top: -105px;
-    ;
 }
 hero{
+    margin:auto;
     color:white;
+    margin:auto;
 }
 h1{
-    /* color:rgb(239, 67, 207); */
+    color:rgb(239, 67, 207);
 }
 .container-new{
     display: flex;
@@ -73,10 +87,6 @@ h1{
     margin-top: 300px;
 }
 
-.lead{
-    font-size: 25px;
-    font-weight: 550;
-}
 
 
 
@@ -85,9 +95,11 @@ h1{
         background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../assets/background.gif") no-repeat center center;
         background-size: cover;
         height: 70vh;
+        margin-top: 5px;
     }
     .hero-container{
         margin-left: -10px;
+        
         
     }
     .lead{
@@ -96,7 +108,8 @@ h1{
     .title{
         font-size: 50px;
     }
-    #responsive-navbar-nav{
+    
+   #responsive-navbar-nav{
         flex-basis: 100%;
         flex-grow: 1;
         align-items: center;
@@ -130,7 +143,7 @@ h1{
     header{
         background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../assets/background.gif") no-repeat center center;
         background-size:cover;
-        /* height: 100vh; */
+        height: 100vh;
     }
     .hero-container{
         margin-left: -20px;
