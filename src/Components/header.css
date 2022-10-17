@@ -8,6 +8,8 @@
     margin-bottom: -10px;
     display: flex;
     justify-content: space-between;
+    font-family: 'Hahmlet', serif;
+
     /* z-index: -1; */
 
 }
@@ -53,6 +55,8 @@ h1{
 }
 .Navbar_Brand logoname{
     font-size: 28px;
+    font-family: 'Hahmlet', serif;
+
 }
 
 .title{
@@ -69,9 +73,13 @@ h1{
 }
 .navcontent .navdrop{
     font-size: 22px;
+    font-family: 'Hahmlet', serif;
+
 }
 #collasible-nav-dropdown{
     color: white;
+    font-family: 'Hahmlet', serif;
+
 }
 .navcontent .navdrop{
     color:white;

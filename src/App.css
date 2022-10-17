@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Fredoka:wght@300&family=Hahmlet:wght@300&family=Work+Sans&display=swap');
+
 body{
   background-color:#0D0628 ;
   overflow-x: hidden;
+  font-family: 'Hahmlet', serif;
+  
 }
 .gradient__text {
   background: var(--gradient-text);
