@@ -4,7 +4,20 @@ import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
 import Dropdown from "react-bootstrap/Dropdown";
 import { Link } from "react-router-dom";
 
-export default function NavComponent(props) {
+export default function NavComponent() {
+  // const [navbar,setNavbar]=useState(false);
+  const [navbar,setNavbar]=useState(false);
+  const changeBg=()=>{
+    if(window.scrollY>=100){
+      setNavbar(true);
+    }
+    else
+    {
+      setNavbar(false);
+    }
+  };
+  window.addEventListener("scroll",changeBg);
+
   const [sidebar, setSidebar] = useState("none");
   const showSidebar = () => {
     if (sidebar === "none") {
@@ -19,6 +32,8 @@ export default function NavComponent(props) {
     setSidebar("none");
   };
   return (
+    
+    <nav className={navbar?"scroll fixed-top":"fixed-top"}>
     <Navbar className="Navbar" collapseOnSelect expand="lg" variant="dark">
       <Container>
         <Navbar.Brand
@@ -242,5 +257,6 @@ export default function NavComponent(props) {
         </Navbar.Collapse>
       </Container>
     </Navbar>
+    </nav>
   );
 }
