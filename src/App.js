@@ -12,21 +12,25 @@ import ComingSoon from "./Components/ComingSoon";
 import Aiml from "./Pages/Aiml";
 import NavComponent from "./Components/NavbarComponent";
 import AdminForm from "./Pages/AdminForm";
+import Job from "./Pages/Job";
 
 function App() {
   return (
     <div className="App">
       <NavComponent />
-      <Routes>
-        <Route path="/" element={<LandingPage />}></Route>
-        <Route path="/form" element={<FormBasic />}></Route>
-        <Route path="/blockchain" element={<Blockchain />}></Route>
-        <Route path="/ar-vr" element={<Ar_vr />}></Route>
-        <Route path="/meta" element={<MetaPage />}></Route>
-        <Route path="/aiml" element={<Aiml />}></Route>
-        <Route path="/adminForm" element={<AdminForm />}></Route>
-        <Route path="/coming" element={<ComingSoon />}></Route>
-      </Routes>
+      {/* <Job/> */}
+
+        <Routes>
+          <Route path="/" element={<LandingPage />}></Route>
+          <Route path="/job" element={<Job />}></Route>
+          <Route path="/form" element={<FormBasic />}></Route>
+          <Route path="/blockchain" element={<Blockchain />}></Route>
+          <Route path="/ar-vr" element={<Ar_vr />}></Route>
+          <Route path="/meta" element={<MetaPage />}></Route>
+          <Route path="/aiml" element={<Aiml />}></Route>
+          <Route path="/adminForm" element={<AdminForm />}></Route>
+          <Route path="/coming" element={<ComingSoon />}></Route>
+        </Routes>
       <Footer />
     </div>
   );
