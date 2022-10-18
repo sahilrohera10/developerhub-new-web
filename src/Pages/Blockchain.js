@@ -10,10 +10,10 @@ const Blockchain = () => {
   return (
     <div className="main_body">
       <div className="header">
-        <div className="header_img">
+        {/* <div className="header_img">
           <img src={blockchainImg} alt="blockcahin" />
-        </div>
-        <div className="header_heading">LOCKCHAIN</div>
+        </div> */}
+        <div className="header_heading">BLOCKCHAIN</div>
       </div>
 
       <div className="sub_body">
@@ -71,7 +71,11 @@ const Blockchain = () => {
         </div>
       </div>
 
-      <Download Name = "Blockchain.pdf" Title = "Blockchain" Description = " Blockchain technology courses for Multichain, Hyperledger, Ethereum and Stellar etc. amongst others."  />
+      <Download
+        Name="Blockchain.pdf"
+        Title="Blockchain"
+        Description=" Blockchain technology courses for Multichain, Hyperledger, Ethereum and Stellar etc. amongst others."
+      />
     </div>
   );
 };
