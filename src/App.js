@@ -12,6 +12,7 @@ import ComingSoon from "./Components/ComingSoon";
 import Aiml from "./Pages/Aiml";
 import NavComponent from "./Components/NavbarComponent";
 import AdminForm from "./Pages/AdminForm";
+import University from "./Components/University";
 
 function App() {
   return (
@@ -26,8 +27,11 @@ function App() {
         <Route path="/aiml" element={<Aiml />}></Route>
         <Route path="/adminForm" element={<AdminForm />}></Route>
         <Route path="/coming" element={<ComingSoon />}></Route>
+        <Route path="/University" element={<University />}></Route>
       </Routes>
+      
       <Footer />
+      
     </div>
   );
 }
