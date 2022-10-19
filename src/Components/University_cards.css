@@ -1,0 +1,74 @@
+.University_card {
+  width: 31%;
+  height: 530px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  border: 2px solid white;
+  border-radius: 1rem;
+}
+.University_card_img {
+  height: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.University_card_img img {
+  /* padding-top: 0.5rem; */
+  width: 94%;
+  height: 94%;
+  filter: brightness(0.7);
+  border-radius: 1.5rem;
+}
+.University_card_img img:hover {
+  filter: brightness(1);
+}
+.university_card_text {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 0.2rem;
+  padding-bottom: 1rem;
+  padding: 0.6rem;
+}
+.card_text {
+  height: 140px;
+  font-size: 15px;
+}
+
+@media screen and (max-width: 1050px) {
+  .card_text {
+    font-size: 13.5px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .card_text {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .University_card {
+    width: 48%;
+  }
+  .card_text {
+    font-size: 13.5px;
+  }
+}
+@media screen and (max-width: 670px) {
+  .University_card {
+    width: 47%;
+  }
+  .card_text {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .University_card {
+    width: 100%;
+  }
+  .card_text {
+    font-size: 13.5px;
+  }
+}

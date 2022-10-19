@@ -107,7 +107,7 @@ export default function NavComponent() {
                 <NavDropdown.Item onClick={hideSidebar}>
                   {" "}
                   <Link
-                    to="/coming"
+                    to="/University"
                     style={{ textDecoration: "none", color: "black" }}
                   >
                     University
