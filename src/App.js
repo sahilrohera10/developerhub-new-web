@@ -13,6 +13,7 @@ import Aiml from "./Pages/Aiml";
 import NavComponent from "./Components/NavbarComponent";
 import AdminForm from "./Pages/AdminForm";
 import University from "./Components/University";
+import Forum from "./Components/Forum";
 import Jobs from "./Pages/Jobs";
 
 function App() {
@@ -30,6 +31,8 @@ function App() {
         <Route path="/adminForm" element={<AdminForm />}></Route>
         <Route path="/coming" element={<ComingSoon />}></Route>
         <Route path="/University" element={<University />}></Route>
+        <Route path="/forum" element={<Forum />}></Route>
+
       </Routes>
 
       <Footer />
