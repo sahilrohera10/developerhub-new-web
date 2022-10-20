@@ -3,7 +3,6 @@
   width: 100vw;
   display: flex;
   flex-direction: column;
-  /* border: 2px solid red; */
   padding: 1rem;
   justify-content: center;
   align-items: center;
@@ -17,11 +16,9 @@
   padding: 1rem;
   gap: 1rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  /* overflow: hidden; */
   align-items: center;
 }
 .banner_heading1 {
-  /* border: 2px solid red; */
   padding: 0.5rem;
   height: 100%;
   width: 50%;
@@ -78,9 +75,7 @@
 }
 
 @media screen and (max-width: 768px) {
-    /* #reverse{
-        flex-direction: column;
-    } */
+   
     .banner_heading {
        font-size: 45px;
       }

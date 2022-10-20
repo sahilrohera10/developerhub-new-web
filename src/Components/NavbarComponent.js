@@ -149,7 +149,7 @@ export default function NavComponent() {
                 <NavDropdown.Item onClick={hideSidebar}>
                   {" "}
                   <Link
-                    to="/coming"
+                    to="/job"
                     style={{ textDecoration: "none", color: "black" }}
                   >
                     Jobs
