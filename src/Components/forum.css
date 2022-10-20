@@ -1,0 +1,145 @@
+.DContainer {
+  width: 100%;
+  background-color: #0d0628;
+  margin-top: 100px;
+  z-index: -1;
+}
+.main {
+  padding: 0.5rem 1.3rem;
+  margin: 0 5rem;
+  background-color: #fff;
+}
+.headline {
+  margin-top: 2rem;
+  padding: 3rem;
+  font-size: 22px;
+}
+.headline h1 {
+  color: #004aad;
+  font-weight: 600;
+}
+.searchbar {
+  background-color: #d9d9d9 !important;
+}
+.buttn {
+  display: flex;
+  justify-content: space-between;
+  /* flex-direction: row; */
+}
+.search {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  bottom: 2rem;
+  left: 3rem;
+}
+.clickbtn {
+  display: flex;
+  margin-top: -2rem;
+}
+.forum_heading{
+  display: flex;
+  
+}
+.heading_name {
+  display: flex;
+  flex-direction: row;
+  font-weight: 600;
+  cursor: pointer;
+  color:#004aad;
+  text-decoration: underline;
+}
+.heading-content{
+text-align: left;
+}
+.timing{
+  color: gray;
+}
+.reply_btn{
+  margin-top: 8px;
+  text-align: center;
+  padding: 1px;
+  margin-bottom: 29px;
+  font-weight: 600;
+  box-sizing: border-box;
+  width: 100px;
+  justify-content: center;
+  border-radius: 30px;
+  color:#40377f ;
+  background-color: #ded8f5;
+  
+}
+.forum_bottom{
+  display: flex;
+  justify-content: space-between;
+}
+.user_details{
+  display: flex;
+}
+.forum_responce span{
+  justify-content: space-between;
+  margin-left: 7px;
+}
+.forum_title{
+  display: flex;
+  justify-content: center;
+}
+.description{
+  display: flex;
+  justify-content: space-around;
+  margin-left: 9px;
+}
+.textarea{
+  border:1px solid;
+  border-radius: 5px;
+  margin-left:10px;
+  padding: 6px;
+  margin-bottom: 10px;
+}
+.title_description{
+  position: relative;;
+  left:12.5%
+}
+.forumfo{
+display: flex;
+flex-direction: column;
+margin: 1px;
+padding: 20px;
+border: 1px solid gray;
+background-color:#fbfbfb;
+}
+.forum_active_time{
+  position: relative;;
+  left:5%
+}
+.forumfo span{
+  margin: 10px;
+}
+.forum_type{
+  position: relative;;
+  left:6%;
+  display: flex;
+  margin-left: 20px;
+}
+.buttons{
+  display: flex;
+  justify-content: right;
+  margin:10px;
+}
+.buttons .okay_btn{
+
+  margin-right: 10px;
+}
+@media only screen and (max-width: 600px) {
+    .buttn{
+      display: block;
+    }
+    .clickbtn{
+      position: relative;
+      left: 28%;
+      margin-top: -8px;
+      margin-bottom: 20px;
+    }
+
+}
+
