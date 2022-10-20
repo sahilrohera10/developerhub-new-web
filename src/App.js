@@ -14,6 +14,7 @@ import NavComponent from "./Components/NavbarComponent";
 import AdminForm from "./Pages/AdminForm";
 import University from "./Components/University";
 import Jobs from "./Pages/Jobs";
+import Forum from "./Components/forum/Forum";
 
 function App() {
   return (
@@ -30,6 +31,8 @@ function App() {
         <Route path="/adminForm" element={<AdminForm />}></Route>
         <Route path="/coming" element={<ComingSoon />}></Route>
         <Route path="/University" element={<University />}></Route>
+        <Route path="/forum" element={<Forum />}></Route>
+
       </Routes>
 
       <Footer />
