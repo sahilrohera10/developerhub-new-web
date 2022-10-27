@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Fredoka:wght@300&family=Hahmlet:wght@300&family=Work+Sans&display=swap');
 
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
 body{
   background-color:#0D0628 ;
   overflow-x: hidden;

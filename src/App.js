@@ -32,7 +32,6 @@ function App() {
         <Route path="/coming" element={<ComingSoon />}></Route>
         <Route path="/University" element={<University />}></Route>
         <Route path="/forum" element={<Forum />}></Route>
-
       </Routes>
 
       <Footer />

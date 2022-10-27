@@ -43,7 +43,6 @@ const Forum = () => {
     setValue(newValue);
   };
 
-
   const [value1, setValue1] = React.useState("");
 
   const handleChange1 = (event, newvalue) => {
@@ -141,13 +140,16 @@ const Forum = () => {
                         <option value="Metaverse">Metaverse</option>
                         <option value="AI/ML">AI/ML</option>
                         <option value="AR/VR">AR/VR</option>
-                      </select>  
-
+                      </select>
                     </div>
                     <div className="buttons">
-                        <Button className="okay_btn" variant="contained">Okay</Button>
-                        <Button variant="outlined" onClick={handleClose}>Cancel</Button>
-                      </div>
+                      <Button className="okay_btn" variant="contained">
+                        Okay
+                      </Button>
+                      <Button variant="outlined" onClick={handleClose}>
+                        Cancel
+                      </Button>
+                    </div>
                   </div>
                 </Box>
               </Modal>
