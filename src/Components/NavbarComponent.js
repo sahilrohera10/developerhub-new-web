@@ -60,7 +60,9 @@ export default function NavComponent() {
                   Home
                 </Link>
               </Nav.Link>
-
+              <Link to="/about" onClick={hideSidebar}>
+                About
+              </Link>
               <NavDropdown
                 className="navdrop"
                 title="Courses"
@@ -214,11 +216,7 @@ export default function NavComponent() {
                 </Link>
               </Nav.Link>
 
-              <Nav.Link className="navdrop">
-                <Link to="/about" onClick={hideSidebar}>
-                  About Us
-                </Link>
-              </Nav.Link>
+              <Nav.Link className="navdrop"></Nav.Link>
               <Nav.Link eventKey={2} href="#memes">
                 {/* margin */}
               </Nav.Link>
