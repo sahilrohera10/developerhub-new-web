@@ -212,19 +212,24 @@ function Footer() {
             <div className="w-11/12 xl:w-1/6 lg:w-1/6 sm:w-11/12 mx-auto lg:mx-0 xl:mx-0 mb-6 lg:mb-0 xl:mb-0 mt-8 lg:mt-8 xl:mt-0 ">
               <div className="flex justify-start sm:justify-start xl:justify-end space-x-6 pr-2 xl:pr-0 lg:pr-0 md:pr-0 sm:pr-0 ">
                 <div>
+                  <a href="https://twitter.com/CrossTower_?t=iPYXqolGnYsRoY18v8ryhg&s=08" target={'_blank'}>
                   <AiOutlineTwitter size={30} color="white" />
+                  </a>
                 </div>
                 <div>
-                  <AiFillInstagram size={30} color="white" />
+                <a href="https://twitter.com/CrossTower_?t=iPYXqolGnYsRoY18v8ryhg&s=08"target={'_blank'} >
+                  <AiFillInstagram size={30} color="white" /></a>
                 </div>
                 <div>
-                  <AiFillRedditCircle size={30} color="white" />
+                <a href="https://www.reddit.com/u/Crosstower-India?utm_medium=android_app&utm_source=share" target={'_blank'}>
+                  <AiFillRedditCircle size={30} color="white" /></a>
                 </div>
                 <div>
                   <FaQuora size={30} color="white" />
                 </div>
                 <div>
-                  <AiFillLinkedin size={30} color="white" />
+                <a href="https://www.linkedin.com/in/cross-tower-63a094255" target={'_blank'}>
+                  <AiFillLinkedin size={30} color="white" /></a>
                 </div>
                 <div>
                   <BsPinterest size={30} color="white" />

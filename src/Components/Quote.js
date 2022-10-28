@@ -4,6 +4,7 @@ import "./Quote.css";
 export default function Quote() {
   return (
     <div className="about">
+      <div className="sub_about">
       <p className="about-up">
         <span style={{ color: "#9340FF" }}>
           Blockchain, Metaverse, AR/VR and AI/ML
@@ -27,6 +28,7 @@ export default function Quote() {
         career in the futuristic technologies like these you need to be on the
         top of technology courses.
       </p>
+      </div>
     </div>
   );
 }
