@@ -123,14 +123,12 @@ function Footer() {
                   <a href="javascript:void(0)">About Us</a>
                 </li>
                 <li className="text-base text-gray-600 hover:text-gray-700 mb-3">
-                  <a href="javascript:void(0)">Guidelines and how to</a>
+                  <a href="javascript:void(0)">Segments</a>
                 </li>
                 <li className="text-base text-gray-600 hover:text-gray-700 mb-3">
-                  <a href="javascript:void(0)">Quote from the best</a>
+                  <a href="javascript:void(0)">Partners</a>
                 </li>
-                <li className="text-base text-gray-600 hover:text-gray-700 mb-3">
-                  <a href="javascript:void(0)">How to start a blog</a>
-                </li>
+               
               </ul>
             </div>
             <div className="w-11/12 xl:w-1/6 lg:w-2/5 mx-auto lg:mx-0 xl:mx-0 pt-3 xl:flex xl:justify-end pl-3 sm:pl-0">
@@ -139,26 +137,26 @@ function Footer() {
                   style={{ color: "#e8e8e8" }}
                   className="text-gray-800 font-bold text-xl mb-6"
                 >
-                  Getting Started
+                  Courses
                 </li>
                 <li className="text-base text-gray-600 hover:text-gray-700 mb-3">
-                  <a href="javascript:void(0)">About Us</a>
+                  <a href="javascript:void(0)">Blockchain</a>
                 </li>
                 <li className="text-base text-gray-600 hover:text-gray-700 mb-3">
-                  <a href="javascript:void(0)">Guidelines and how to</a>
+                  <a href="javascript:void(0)">Metaverse</a>
                 </li>
                 <li className="text-base text-gray-600 hover:text-gray-700 mb-3">
+                  <a href="javascript:void(0)">AR/VR</a>
+                </li>
+                <li className="text-base text-gray-600 hover:text-gray-700 mb-3">
+                  <a href="javascript:void(0)">AI/ML</a>
+                </li>
+                {/* <li className="text-base text-gray-600 hover:text-gray-700 mb-3">
                   <a href="javascript:void(0)">Quote from the best</a>
                 </li>
                 <li className="text-base text-gray-600 hover:text-gray-700 mb-3">
-                  <a href="javascript:void(0)">How to start a blog</a>
-                </li>
-                <li className="text-base text-gray-600 hover:text-gray-700 mb-3">
-                  <a href="javascript:void(0)">Quote from the best</a>
-                </li>
-                <li className="text-base text-gray-600 hover:text-gray-700 mb-3">
                   <a href="javascript:void(0)">Guidelines and how to</a>
-                </li>
+                </li> */}
               </ul>
             </div>
             <div className="w-11/12 xl:w-1/6 lg:w-2/5 mx-auto lg:mx-0 xl:mx-0 pt-3 xl:flex xl:justify-end pl-3 sm:pl-0">
@@ -170,19 +168,19 @@ function Footer() {
                   Resources
                 </li>
                 <li className="text-base text-gray-600 hover:text-gray-700 mb-3">
-                  <a href="javascript:void(0)">Accessibility</a>
+                  <a href="javascript:void(0)">Jobs</a>
                 </li>
                 <li className="text-base text-gray-600 hover:text-gray-700 mb-3">
-                  <a href="javascript:void(0)">Usability</a>
+                  <a href="javascript:void(0)">Projects</a>
                 </li>
                 <li className="text-base text-gray-600 hover:text-gray-700 mb-3">
-                  <a href="javascript:void(0)">Marketplace</a>
+                  <a href="javascript:void(0)">Internships</a>
                 </li>
                 <li className="text-base text-gray-600 hover:text-gray-700 mb-3">
-                  <a href="javascript:void(0)">Design &amp; Dev</a>
+                  <a href="javascript:void(0)">R &amp; D</a>
                 </li>
                 <li className="text-base text-gray-600 hover:text-gray-700 mb-3">
-                  <a href="javascript:void(0)">Marketplace</a>
+                  <a href="javascript:void(0)">Incubations</a>
                 </li>
               </ul>
             </div>
