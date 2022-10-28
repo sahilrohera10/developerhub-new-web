@@ -15,13 +15,19 @@ import AdminForm from "./Pages/AdminForm";
 import University from "./Components/University";
 import Forum from "./Components/Forum";
 import Jobs from "./Pages/Jobs";
+import AboutUs from "./Pages/AboutUs";
+import ContactUs from "./Pages/ContactUs";
+import ScrollToTop from "react-scroll-to-top";
 
 function App() {
   return (
     <div className="App">
+      <ScrollToTop smooth width="40" />
       <NavComponent />
       <Routes>
         <Route path="/" element={<LandingPage />}></Route>
+        <Route path="/contact" element={<ContactUs />}></Route>
+        <Route path="/about" element={<AboutUs />}></Route>
         <Route path="/job" element={<Jobs />}></Route>
         <Route path="/form" element={<FormBasic />}></Route>
         <Route path="/blockchain" element={<Blockchain />}></Route>

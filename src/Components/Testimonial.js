@@ -9,6 +9,7 @@ export default function Testimonial() {
         margin: "auto",
         marginTop: "100px",
         backgroundColor: "#EDE7E7",
+        borderRadius: "20px",
       }}
     >
       <div className="container mx-auto px-4 flex flex-col lg:items-center justify-between lg:flex-row">

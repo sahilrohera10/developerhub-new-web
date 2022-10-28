@@ -13,26 +13,27 @@ import roadmapImg from "../assets/roadmap.jpg";
 const steps = [
   {
     label: "Register for free",
-    description: `For each ad campaign that you create, you can control how much
-              you're willing to spend on clicks and conversions, which networks
-              and geographical locations you want your ads to show on, and more.`,
+    description: `Confused about which technology to target next? Register for FREE and explore our platform.
+.`,
   },
   {
     label: "Select a course",
     description:
-      "An ad group contains one or more ads which target a shared set of keywords.",
+      "Pick a technology that fascinates you and find the best courses to MASTER it.",
   },
   {
-    label: "Select a course",
+    label: "Get Trained",
     description:
-      "An ad group contains one or more ads which target a shared set of keywords.",
+      "Experience learning from the best of the mentors in the industry.",
   },
   {
-    label: "Get placed",
-    description: `Try out different ad text to see what brings in the most customers,
-              and learn how to enhance your ads using features like ad extensions.
-              If you run into any problems with your ads, find out how to tell if
-              they're running and how to resolve approval issues.`,
+    label: "Build Projects",
+    description:
+      "Master the technology by trying hands on and creating some AWESOME stuff",
+  },
+  {
+    label: "Get Placement Support",
+    description: `After boosting your career, get into your DREAM companies with your DREAM offers. `,
   },
 ];
 
@@ -64,7 +65,7 @@ export default function Roadmap() {
                 <Step key={step.label}>
                   <StepLabel
                     optional={
-                      index === 3 ? (
+                      index === 4 ? (
                         <Typography variant="caption">Last step</Typography>
                       ) : null
                     }
