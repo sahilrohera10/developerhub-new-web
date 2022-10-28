@@ -195,12 +195,9 @@ h1{
     top: 30%;
 }
 }
-@media (max-width: 420px) {
-    header{
-        background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../assets/background.gif") no-repeat center center;
-        background-size:cover;
-        height: 100vh;
-    }
+@media (min-width:300px) and (max-width: 420px) {
+   
+    
     .hero-container{
         margin-left: -20px;
         
@@ -218,7 +215,7 @@ h1{
     }
     .navbar{
         margin:0px;
-        margin-right:0px
+        margin-right:50px
     }
     /* .header-content-div{
         margin-top: 150px;
