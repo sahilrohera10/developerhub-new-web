@@ -1,5 +1,5 @@
 // import React from "react";
-// import "./blog.css";
+import "./blog.css";
 // import courseImg from "../assets/courses.jpg";
 // import eventImg from "../assets/events.jpg";
 // import roadmapImg from "../assets/roadmap.jpg";
