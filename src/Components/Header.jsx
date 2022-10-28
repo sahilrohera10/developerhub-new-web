@@ -30,15 +30,13 @@ const Headers = () => {
                   },
                 ]}
                 wrapper="div"
-                cursor={true}
+                cursor={false}
                 repeat={Infinity}
                 // className="typing-annimation"
               />
-              <p className="lead">
+              <div className="lead">
                 Let's go invent tomorrow instead of worring about what happened
-                yesterday.
-              </p>
-              <div className="d-grid gap-2 d-md-flex justify-content-md-start">
+                yesterday.<br/><br/>
                 <Link
                   to="/blockchain"
                   style={{ textDecoration: "none", color: "white" }}
@@ -55,6 +53,9 @@ const Headers = () => {
                     Courses
                   </Button>
                 </Link>
+              </div>
+              <div className="d-grid gap-2 d-md-flex justify-content-md-start">
+                
               </div>
             </div>
           </div>
