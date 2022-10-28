@@ -11,15 +11,6 @@ export default function Quote() {
         are not just buzzwords but the future of the technology that we depend
         lot upon.
       </p>
-      <hr
-        style={{
-          width: "50%",
-          marginLeft: "25vw",
-          height: "10px",
-          borderTop: "3px solid",
-          opacity: "1",
-        }}
-      />
 
       <p className="about-down">
         These technologies are shaping future of the world and offer exclusive
