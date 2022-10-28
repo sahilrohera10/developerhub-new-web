@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,600;0,700;0,800;1,600;1,700;1,800&family=Rubik+Moonrocks&display=swap');
 *{
     font-family: 'Poppins', sans-serif;
+    font-family: 'Hahmlet', serif;
  
 }
 .navbar{
@@ -9,9 +10,22 @@
     display: flex;
     justify-content: space-between;
     font-family: 'Hahmlet', serif;
-
+    margin-left: 80px;
+    margin-right: 60px;
+ 
     /* z-index: -1; */
 
+}
+
+.navbar a{
+    display: flex;
+    flex-direction: row;
+    font-size: large;
+    font-family: 'Hahmlet', serif;
+
+}
+a:hover{
+    color: rgb(239, 67, 207);
 }
 .scroll{
     margin-bottom:1px;
@@ -19,6 +33,7 @@
     
 }
 .Navbar{
+
    color:white;
   text-align: center;
   z-index: 100;
@@ -44,6 +59,7 @@ h1{
 .container-new{
     display: flex;
     flex-direction: left;
+    margin-left: 65px;
 }
 /* .button{
     border-radius: 550px;
@@ -58,7 +74,13 @@ h1{
     font-family: 'Hahmlet', serif;
 
 }
-
+.lead{
+    margin-top: 20px;
+    width: 20rem;
+    display: inline-block;
+    position: absolute;
+    top:30%;
+}
 .title{
     font-size: 60px;
     font-weight: 800;
@@ -68,22 +90,30 @@ h1{
     margin-right: 550px;
 }
 .navcontent{
-    font-size: larger;   
+    font-size: 22px;   
    
 }
 .navcontent .navdrop{
-    font-size: 22px;
+    font-size: large;
     font-family: 'Hahmlet', serif;
 
 }
 #collasible-nav-dropdown{
     color: white;
-    font-family: 'Hahmlet', serif;
+    display: inline;
+    position: relative;
+    top:10%;
+    font-size: large;
+    /* font-family: 'Hahmlet', serif; */
 
 }
 .navcontent .navdrop{
     color:white;
     font-size: 22px;
+}
+
+#collasible-nav-dropdown:hover{
+    color: rgb(239, 67, 207);
 }
 .typeAnimation{
         font-size: 68px;
@@ -118,19 +148,24 @@ h1{
     }
     
    #responsive-navbar-nav{
+         display: block;
         flex-basis: 100%;
         flex-grow: 1;
         align-items: center;
         position: absolute;
         top: 75%;
-        background: black;
-        width: 90%;
+        background: rgb(13, 6, 40);
+        width: 95%;
         padding: 10px;
         z-index: 100;
     }
 
     .header-content-div{
         margin-top: 150px;
+    }
+    .herodata{
+        position:absolute;
+        top: 30%;
     }
 }
 @media screen and (max-width : 500px) {
@@ -145,7 +180,10 @@ h1{
 .header-content-div{
     margin-top: 180px;
 }
-    
+.herodata{
+    position:absolute;
+    top: 30%;
+}
 }
 @media (max-width: 400px) {
     header{
@@ -169,7 +207,10 @@ h1{
     /* .header-content-div{
         margin-top: 150px;
     } */
-      
+    .herodata{
+        position:absolute;
+        top: 30%;
+    }
 }
 
 @media screen and (max-width : 321px) {
