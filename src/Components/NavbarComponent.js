@@ -53,15 +53,14 @@ export default function NavComponent() {
             id="responsive-navbar-nav"
             style={{ display: sidebar }}
           >
-            
             <Nav className="me-auto">{/* //siderow */}</Nav>
             <Nav className="navcontent">
-            <Nav.Link className="navdrop">
-              <Link to='/' onClick={hideSidebar}>
-                Home
+              <Nav.Link className="navdrop">
+                <Link to="/" onClick={hideSidebar}>
+                  Home
                 </Link>
               </Nav.Link>
-              
+
               <NavDropdown
                 className="navdrop"
                 title="Courses"
@@ -208,16 +207,16 @@ export default function NavComponent() {
                   </Link>
                 </NavDropdown.Item>
               </NavDropdown>
-             
+
               <Nav.Link className="navdrop">
-              <Link to='/support' onClick={hideSidebar}>
-                Contact Us
+                <Link to="/contact" onClick={hideSidebar}>
+                  Contact Us
                 </Link>
               </Nav.Link>
-              
+
               <Nav.Link className="navdrop">
-                <Link to='/about' onClick={hideSidebar}>
-                About Us
+                <Link to="/about" onClick={hideSidebar}>
+                  About Us
                 </Link>
               </Nav.Link>
               <Nav.Link eventKey={2} href="#memes">
