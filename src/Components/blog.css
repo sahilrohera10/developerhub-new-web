@@ -2,5 +2,14 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  width: auto;
+  width: 20px;
+}
+@media (min-width:300px) and (max-width:600px) {
+
+  #blog{
+  display: block;
+  margin-left:-20px;
+  padding: 0px;
+  box-sizing: border-box;
+}
 }
