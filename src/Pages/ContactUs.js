@@ -1,5 +1,8 @@
-import React from "react";
+import React, { useEffect } from "react";
 function ContactUs() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="container mx-auto pt-16 mt-32" style={{ width: "90vw" }}>
       <div className="lg:flex">
