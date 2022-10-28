@@ -77,6 +77,7 @@ import {
   AiFillLinkedin,
 } from "react-icons/ai";
 import { FaQuora } from "react-icons/fa";
+import { BsPinterest } from "react-icons/bs";
 function Footer() {
   return (
     <div className="pt-16" style={{ backgroundColor: "black" }}>
@@ -118,16 +119,16 @@ function Footer() {
                 >
                   Community
                 </li>
-                <li className="text-base text-gray-600 hover:text-gray-700 mb-5">
+                <li className="text-base text-gray-600 hover:text-gray-700 mb-3">
                   <a href="javascript:void(0)">About Us</a>
                 </li>
-                <li className="text-base text-gray-600 hover:text-gray-700 mb-5">
+                <li className="text-base text-gray-600 hover:text-gray-700 mb-3">
                   <a href="javascript:void(0)">Guidelines and how to</a>
                 </li>
-                <li className="text-base text-gray-600 hover:text-gray-700 mb-5">
+                <li className="text-base text-gray-600 hover:text-gray-700 mb-3">
                   <a href="javascript:void(0)">Quote from the best</a>
                 </li>
-                <li className="text-base text-gray-600 hover:text-gray-700 mb-5">
+                <li className="text-base text-gray-600 hover:text-gray-700 mb-3">
                   <a href="javascript:void(0)">How to start a blog</a>
                 </li>
               </ul>
@@ -140,22 +141,22 @@ function Footer() {
                 >
                   Getting Started
                 </li>
-                <li className="text-base text-gray-600 hover:text-gray-700 mb-5">
+                <li className="text-base text-gray-600 hover:text-gray-700 mb-3">
                   <a href="javascript:void(0)">About Us</a>
                 </li>
-                <li className="text-base text-gray-600 hover:text-gray-700 mb-5">
+                <li className="text-base text-gray-600 hover:text-gray-700 mb-3">
                   <a href="javascript:void(0)">Guidelines and how to</a>
                 </li>
-                <li className="text-base text-gray-600 hover:text-gray-700 mb-5">
+                <li className="text-base text-gray-600 hover:text-gray-700 mb-3">
                   <a href="javascript:void(0)">Quote from the best</a>
                 </li>
-                <li className="text-base text-gray-600 hover:text-gray-700 mb-5">
+                <li className="text-base text-gray-600 hover:text-gray-700 mb-3">
                   <a href="javascript:void(0)">How to start a blog</a>
                 </li>
-                <li className="text-base text-gray-600 hover:text-gray-700 mb-5">
+                <li className="text-base text-gray-600 hover:text-gray-700 mb-3">
                   <a href="javascript:void(0)">Quote from the best</a>
                 </li>
-                <li className="text-base text-gray-600 hover:text-gray-700 mb-5">
+                <li className="text-base text-gray-600 hover:text-gray-700 mb-3">
                   <a href="javascript:void(0)">Guidelines and how to</a>
                 </li>
               </ul>
@@ -168,19 +169,19 @@ function Footer() {
                 >
                   Resources
                 </li>
-                <li className="text-base text-gray-600 hover:text-gray-700 mb-5">
+                <li className="text-base text-gray-600 hover:text-gray-700 mb-3">
                   <a href="javascript:void(0)">Accessibility</a>
                 </li>
-                <li className="text-base text-gray-600 hover:text-gray-700 mb-5">
+                <li className="text-base text-gray-600 hover:text-gray-700 mb-3">
                   <a href="javascript:void(0)">Usability</a>
                 </li>
-                <li className="text-base text-gray-600 hover:text-gray-700 mb-5">
+                <li className="text-base text-gray-600 hover:text-gray-700 mb-3">
                   <a href="javascript:void(0)">Marketplace</a>
                 </li>
-                <li className="text-base text-gray-600 hover:text-gray-700 mb-5">
+                <li className="text-base text-gray-600 hover:text-gray-700 mb-3">
                   <a href="javascript:void(0)">Design &amp; Dev</a>
                 </li>
-                <li className="text-base text-gray-600 hover:text-gray-700 mb-5">
+                <li className="text-base text-gray-600 hover:text-gray-700 mb-3">
                   <a href="javascript:void(0)">Marketplace</a>
                 </li>
               </ul>
@@ -193,7 +194,7 @@ function Footer() {
               </p>
             </div>
             <div className="w-11/12 xl:w-2/6 mx-auto lg:mx-0 xl:mx-0 mb-6 lg:mb-0 xl:mb-0">
-              <ul className="xl:flex lg:flex md:flex sm:flex justify-between">
+              <ul className="xl:flex lg:flex md:flex sm:flex justify-between mr-10">
                 <li className="text-gray-800 hover:text-gray-900 text-base mb-4 sm:mb-0">
                   <a href="javascript:void(0)">Terms of service</a>
                 </li>
@@ -208,22 +209,25 @@ function Footer() {
                 </li>
               </ul>
             </div>
-            <div className="w-11/12 xl:w-1/6 lg:w-1/6 sm:w-11/12 mx-auto lg:mx-0 xl:mx-0 mb-6 lg:mb-0 xl:mb-0 mt-8 lg:mt-8 xl:mt-0">
-              <div className="flex justify-start sm:justify-start xl:justify-end space-x-6 pr-2 xl:pr-0 lg:pr-0 md:pr-0 sm:pr-0">
+            <div className="w-11/12 xl:w-1/6 lg:w-1/6 sm:w-11/12 mx-auto lg:mx-0 xl:mx-0 mb-6 lg:mb-0 xl:mb-0 mt-8 lg:mt-8 xl:mt-0 ">
+              <div className="flex justify-start sm:justify-start xl:justify-end space-x-6 pr-2 xl:pr-0 lg:pr-0 md:pr-0 sm:pr-0 ">
                 <div>
-                  <AiOutlineTwitter size={35} color="white" />
+                  <AiOutlineTwitter size={30} color="white" />
                 </div>
                 <div>
-                  <AiFillInstagram size={35} color="white" />
+                  <AiFillInstagram size={30} color="white" />
                 </div>
                 <div>
-                  <AiFillRedditCircle size={35} color="white" />
+                  <AiFillRedditCircle size={30} color="white" />
                 </div>
                 <div>
-                  <FaQuora size={35} color="white" />
+                  <FaQuora size={30} color="white" />
                 </div>
                 <div>
-                  <AiFillLinkedin size={35} color="white" />
+                  <AiFillLinkedin size={30} color="white" />
+                </div>
+                <div>
+                  <BsPinterest size={30} color="white" />
                 </div>
               </div>
             </div>

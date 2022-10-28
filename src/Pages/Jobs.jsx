@@ -6,7 +6,7 @@ import { height } from "@mui/system";
 
 export default function Jobs() {
   return (
-    <div id="reverse" className="main">
+    <div id="reverse" className="main-jobs">
       <div className="left">
         <div className="main-head">
           Connect with <br /> UNconnected...
