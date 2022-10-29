@@ -249,6 +249,7 @@ import {
 } from "react-icons/ai";
 import { FaQuora } from "react-icons/fa";
 import { BsPinterest } from "react-icons/bs";
+import "./Footer.css";
 function Footer() {
   return (
     <div className="pt-16" style={{ backgroundColor: "black" }}>
@@ -299,7 +300,6 @@ function Footer() {
                 <li className="text-base text-gray-600 hover:text-gray-700 mb-3">
                   <a href="javascript:void(0)">Partners</a>
                 </li>
-               
               </ul>
             </div>
             <div className="w-11/12 xl:w-1/6 lg:w-2/5 mx-auto lg:mx-0 xl:mx-0 pt-3 xl:flex xl:justify-end pl-3 sm:pl-0">
@@ -379,7 +379,7 @@ function Footer() {
               </ul>
             </div>
             <div className="w-11/12 xl:w-1/6 lg:w-1/6 sm:w-11/12 mx-auto lg:mx-0 xl:mx-0 mb-6 lg:mb-0 xl:mb-0 mt-8 lg:mt-8 xl:mt-0 ">
-              <div className="flex justify-start sm:justify-start xl:justify-end space-x-6 pr-2 xl:pr-0 lg:pr-0 md:pr-0 sm:pr-0 ">
+              <div className="flex justify-start sm:justify-start xl:justify-end space-x-6 pr-2 xl:pr-0 lg:pr-0 md:pr-0 sm:pr-0 footer-icons">
                 <div>
                   <a
                     href="https://twitter.com/CrossTower_?t=iPYXqolGnYsRoY18v8ryhg&s=08"

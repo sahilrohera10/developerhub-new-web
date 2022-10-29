@@ -195,13 +195,12 @@ h1{
     top: 30%;
 }
 }
-@media (min-width:250px) and (max-width: 420px) {
-   
+@media screen and (max-width : 376px) {
     header{
         background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../assets/background.gif") no-repeat center center;
         background-size: cover;
         height: 70vh;
-        width: 405px;
+        width: 375px;
         margin-top: 5px;
     }
     .hero-container{
@@ -210,12 +209,14 @@ h1{
     }
     .lead{
         text-align: left;
+        margin-left: -85px;
     }
     .title{
         font-size: 40px;
     }
     .typeAnimation{
         font-size: 48px;
+        margin-left: -80px;
 
         
     }
@@ -230,6 +231,43 @@ h1{
         position:absolute;
         top: 30%;
     }
+    
+}
+@media (min-width:250px) and (max-width: 321px) {
+   
+    header{
+        background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../assets/background.gif") no-repeat center center;
+        background-size: cover;
+        height: 70vh;
+        width: 323px;
+        margin-top: 5px;
+    }
+    /* .hero-container{
+        margin-left: -20px;
+        
+    }
+    .lead{
+        text-align: left;
+        margin-left: -85px;
+    }
+    .title{
+        font-size: 40px;
+    }
+    .typeAnimation{
+        font-size: 48px;
+        margin-left: -80px;
+
+        
+    }
+    .navbar{
+        margin:0px;
+        margin-right:50px
+    } */
+   
+    /* .herodata{
+        position:absolute;
+        top: 30%;
+    } */
 }
 
 @media( min-width:992px) and (max-width : 11492px) {

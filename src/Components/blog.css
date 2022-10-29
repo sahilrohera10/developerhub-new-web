@@ -1,15 +1,18 @@
-#blog{
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-  width: 20px;
+@media screen and (max-width : 376px) {
+  .blog-card{
+    width: 85vw;
+  }
+  .blog-header{
+    font-size: 1.7rem;
+  }
+  
 }
-@media (min-width:300px) and (max-width:600px) {
-
-  #blog{
-  display: block;
-  margin-left:-20px;
-  padding: 0px;
-  box-sizing: border-box;
-}
+@media screen and (max-width : 321px) {
+  .blog-card{
+    width: 85vw;
+  }
+  .blog-header{
+    font-size: 1.7rem;
+  }
+  
 }

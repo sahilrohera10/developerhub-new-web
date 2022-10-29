@@ -72,6 +72,7 @@ import "./blog.css";
 // export default Blog;
 
 import React from "react";
+import "./blog.css";
 function Blog() {
   return (
     <>
@@ -85,7 +86,7 @@ function Blog() {
           </h1>
           <div className="mt-12 lg:mt-24">
             <div className="grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-8">
-              <div>
+              <div className="blog-card">
                 <img
                   className="w-full"
                   src="https://cdn.tuk.dev/assets/components/111220/Blg-6/blog(1).png"
@@ -100,10 +101,10 @@ function Blog() {
                   </p>
                 </div>
                 <div
-                  style={{ height: "52vh" }}
+                  // style={{ height: "52vh" }}
                   className="bg-white px-5 py-6 rounded-bl-3xl rounded-br-3xl"
                 >
-                  <h1 className="text-4xl text-gray-900 font-semibold tracking-wider">
+                  <h1 className="text-4xl text-gray-900 font-semibold tracking-wider blog-header">
                     Transactions
                   </h1>
                   <p className="text-gray-700 text-base lg:text-lg  lg:leading-8 tracking-wide mt-6 w-11/12">
@@ -120,7 +121,7 @@ function Blog() {
               </div>
               <div>
                 <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-8">
-                  <div>
+                  <div className="blog-card">
                     <img
                       className="w-full"
                       src="https://cdn.tuk.dev/assets/components/111220/Blg-6/blog(2).png"
@@ -144,7 +145,7 @@ function Blog() {
                       </p>
                     </div>
                   </div>
-                  <div>
+                  <div className="blog-card">
                     <img
                       className="w-full"
                       src="https://cdn.tuk.dev/assets/components/111220/Blg-6/blog(3).png"
@@ -170,7 +171,7 @@ function Blog() {
                   </div>
                 </div>
                 <div className="mt-10 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-8">
-                  <div>
+                  <div className="blog-card">
                     <img
                       className="w-full"
                       src="https://cdn.tuk.dev/assets/components/111220/Blg-6/blog(4).png"
@@ -194,7 +195,7 @@ function Blog() {
                       </p>
                     </div>
                   </div>
-                  <div>
+                  <div className="blog-card">
                     <img
                       className="w-full"
                       src="https://cdn.tuk.dev/assets/components/111220/Blg-6/blog(5).png"

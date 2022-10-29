@@ -1,67 +1,8 @@
-.footer{
-    background-color: black;
-    margin-top: 100px;
-    color: white;
-}
-.footer-logo{
-    font-size: xx-large;
-    font-weight: 700;
-}
-.footer-aboutUs-div{
-    margin-top: 21px;
-}
-.Upper-div{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding-top: 30px;
-}
+@media screen and (max-width : 321px) {
+    .footer-icons{
 
-.Lower-div{
-/* margin-left: 180px; */
-    /* width: 70%; */
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    font-weight: 900;
+        margin-left: -25px;
 
-}
-.headline-name{
-    font-size: x-large;
-    font-weight: bold;
-
-}
-.footer-aboutUs-content{
-    width: 297px;
-}
-.footer-contactUs{
-    font-size: x-large;
-}
-.footer-contactNo{
-    display: flex;
-    justify-content: space-evenly;
-    width: 115px;
-}
-.footer-contactMail{
-    display: flex;
-    justify-content: space-evenly;
-    width: 229px;
-}
-
-@media only  screen and (max-width:768px) {
-    .footer-aboutUs-content{
-        width: 300px;
     }
-    .footer-logo{
-        font-size: x-large;
-        font-weight: 700;
-    }
-    .headline-name{
-        font-size: large;
-        font-weight: bold;
     
-    }
-    .footer-contactUs{
-        font-size: large;
-    }
 }
