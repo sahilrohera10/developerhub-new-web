@@ -15,6 +15,10 @@ import AdminForm from "./Pages/AdminForm";
 import University from "./Components/University";
 import Forum from "./Components/Forum";
 import Jobs from "./Pages/Jobs";
+import Fresher from "./Components/Fresher";
+import Corporate from "./Components/Corporate";
+
+import Software from "./Components/Software";
 
 function App() {
   return (
@@ -31,7 +35,10 @@ function App() {
         <Route path="/adminForm" element={<AdminForm />}></Route>
         <Route path="/coming" element={<ComingSoon />}></Route>
         <Route path="/University" element={<University />}></Route>
+        <Route path="/fresher" element={<Fresher />}></Route>
         <Route path="/forum" element={<Forum />}></Route>
+        <Route path="/corporate" element={<Corporate />}></Route>
+        <Route path="/software" element={<Software />}></Route>
       </Routes>
 
       <Footer />

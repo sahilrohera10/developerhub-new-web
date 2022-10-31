@@ -116,7 +116,7 @@ export default function NavComponent() {
                 <NavDropdown.Item onClick={hideSidebar}>
                   {" "}
                   <Link
-                    to="/coming"
+                    to="/corporate"
                     style={{ textDecoration: "none", color: "black" }}
                   >
                     Corporate
@@ -125,7 +125,7 @@ export default function NavComponent() {
                 <NavDropdown.Item onClick={hideSidebar}>
                   {" "}
                   <Link
-                    to="/coming"
+                    to="/fresher"
                     style={{ textDecoration: "none", color: "black" }}
                   >
                     Fresher
@@ -134,7 +134,7 @@ export default function NavComponent() {
                 <NavDropdown.Item onClick={hideSidebar}>
                   {" "}
                   <Link
-                    to="/coming"
+                    to="/software"
                     style={{ textDecoration: "none", color: "black" }}
                   >
                     Software Engg.
