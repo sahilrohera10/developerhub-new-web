@@ -12,7 +12,7 @@ const Feedback = () => {
           </div>
           <div className="upperPart">
             <div className="subU">
-              <FaFileAlt size={100}/>
+              <FaFileAlt size={100} />
               <p>Your opinion matters</p>
             </div>
             <div className="subHead">
@@ -30,13 +30,13 @@ const Feedback = () => {
             <div className="radioB">
               <input type="radio" name="choice" id="" />
               <label htmlFor="Very good">Very good</label>
-              <input type="radio" name="choice" id=""/>
+              <input type="radio" name="choice" id="" />
               <label htmlFor="Good">Good</label>
-              <input type="radio" name="choice" id=""/>
+              <input type="radio" name="choice" id="" />
               <label htmlFor="Medicore">Medicore</label>
-              <input type="radio" name="choice" id=""/>
+              <input type="radio" name="choice" id="" />
               <label htmlFor="Bad">Bad</label>
-              <input type="radio" name="choice" id=""/>
+              <input type="radio" name="choice" id="" />
               <label htmlFor="Very bad">Very bad</label>
             </div>
           </div>
@@ -47,16 +47,14 @@ const Feedback = () => {
             <textarea
               className="textarea"
               rows="6"
-             
               id="TITLE"
               placeholder="Provide extra details..."
             ></textarea>
           </div>
-          <button type="SUBMIT">Submit</button>
-
-        
+          <button className="button-btn" type="SUBMIT">
+            Submit
+          </button>
         </div>
-        
       </div>
     </div>
   );

@@ -250,6 +250,7 @@ import {
 import { FaQuora } from "react-icons/fa";
 import { BsPinterest } from "react-icons/bs";
 import "./Footer.css";
+import { Link } from "react-router-dom";
 function Footer() {
   return (
     <div className="pt-16" style={{ backgroundColor: "black" }}>
@@ -299,6 +300,9 @@ function Footer() {
                 </li>
                 <li className="text-base text-gray-600 hover:text-gray-700 mb-3">
                   <a href="javascript:void(0)">Partners</a>
+                </li>
+                <li className="text-base text-gray-600 hover:text-gray-700 mb-3">
+                  <Link to="/Forum">Forum</Link>
                 </li>
               </ul>
             </div>

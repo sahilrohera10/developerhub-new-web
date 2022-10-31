@@ -18,6 +18,7 @@ import Jobs from "./Pages/Jobs";
 import AboutUs from "./Pages/AboutUs";
 import ContactUs from "./Pages/ContactUs";
 import ScrollToTop from "react-scroll-to-top";
+import Feedback from "./Components/Feedback";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
       <NavComponent />
       <Routes>
         <Route path="/" element={<LandingPage />}></Route>
+        <Route path="/feedback" element={<Feedback />}></Route>
         <Route path="/contact" element={<ContactUs />}></Route>
         <Route path="/about" element={<AboutUs />}></Route>
         <Route path="/job" element={<Jobs />}></Route>

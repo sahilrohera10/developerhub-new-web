@@ -10,10 +10,28 @@ import Quote from "../Components/Quote";
 import Roadmap from "../Components/Roadmap";
 import Testimonial from "../Components/Testimonial";
 import UniPartner from "../Components/UniPartner";
+import adImg from "../assets/ad-img.jpeg";
+import "./LandingPage.css";
+import { useState } from "react";
+import { Link } from "react-router-dom";
 
 export default function LandingPage() {
+  const [display, setDisplay] = useState("block");
   return (
     <div>
+      <img className="ad" style={{ display: display }} src={adImg} alt="" />
+      <p
+        className="close-btn"
+        style={{ display: display }}
+        onClick={() => setDisplay("none")}
+      >
+        X
+      </p>
+      <Link to="/form">
+        <button style={{ display: display }} className="apply-btn">
+          Apply Now
+        </button>
+      </Link>
       <Headers />
       <Quote />
       <AllCourses />

@@ -18,6 +18,7 @@ import Typography from "@mui/material/Typography";
 import "./forum.css";
 import { InputLabel, TextField } from "@mui/material";
 import { FormControl } from "@mui/material";
+import { useEffect } from "react";
 
 const style = {
   position: "absolute",
@@ -48,6 +49,9 @@ const Forum = () => {
   const handleChange1 = (event, newvalue) => {
     setValue1(newvalue);
   };
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <div className="DContainer">
