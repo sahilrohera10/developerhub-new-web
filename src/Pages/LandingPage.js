@@ -19,7 +19,7 @@ export default function LandingPage() {
   const [display, setDisplay] = useState("block");
   return (
     <div>
-      <img className="ad" style={{ display: display }} src={adImg} alt="" />
+      {/* <img className="ad" style={{ display: display }} src={adImg} alt="" />
       <p
         className="close-btn"
         style={{ display: display }}
@@ -31,7 +31,7 @@ export default function LandingPage() {
         <button style={{ display: display }} className="apply-btn">
           Apply Now
         </button>
-      </Link>
+      </Link> */}
       <Headers />
       <Quote />
       <AllCourses />
