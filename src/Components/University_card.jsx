@@ -9,11 +9,12 @@ export default function University_card(props) {
         <img src={props.data.img} alt="" className="front_Img" />
       </div>
       <div className="university_card_text">
+        <p className="card_text_heading">{props.data.heading}</p>
         <p className="card_text">{props.data.text}</p>
         <Link to={props.data.link}>
-          <Button style={{"fontSize":"14px"}} variant="contained" disableElevation>
-            Disable elevation
-          </Button>
+          {/* <Button style={{"fontSize":"14px"}} variant="contained" disableElevation>
+           Explore {props.data.heading}
+          </Button> */}
         </Link>
       </div>
     </div>

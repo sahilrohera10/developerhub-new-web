@@ -4,35 +4,48 @@ import "./University_card";
 import University_card from "./University_card";
 const CardArray = [
   {
-    img: "BlockchainImg1.jpeg",
-    text: "Blockchain technology courses for Multichain, Hyperledger, Ethereum, and Stellar, etc. amongst others.",
-    link: "/blockchain",
+    img: "courses.jpg",
+    // text: "courses_services.jfif",
+    heading: "Courses",
+    // link: "/blockchain",
   },
   {
-    img: "AI_ML1.png",
-    text: "AI/ML course is an amalgamation of comprehensive and rigorous curriculum. It would cover key concepts and technologies of Artificial Intelligence and Machine Learning with higher utility value. ",
-    link: "/aiml",
+    img: "jobs_services.jfif",
+    // text: "jobs_services.jfif ",
+    heading: "Jobs",
+    // link: "/blockchain",
   },
   {
-    img: "BlockchainImg1.jpeg",
-    text: "Blockchain technology courses for Multichain, Hyperledger, Ethereum, and Stellar, etc. amongst others.",
-    link: "/blockchain",
+    img: "project_services.jfif",
+    // text: "project_services.jfif  ",
+    heading: "Projects",
+    // link: "/aiml",
   },
   {
-    img: "AI_ML1.png",
-    text: "AI/ML course is an amalgamation of comprehensive and rigorous curriculum. It would cover key concepts and technologies of Artificial Intelligence and Machine Learning with higher utility value. ",
-    link: "/aiml",
+    img: "internship_services.jfif",
+    // text: " internship_services.jfif  ",
+    heading: "Internship",
+    // link: "/aiml",
   },
   {
-    img: "BlockchainImg1.jpeg",
-    text: "Blockchain technology courses for Multichain, Hyperledger, Ethereum, and Stellar, etc. amongst others.",
-    link: "/blockchain",
+    img: "r&d_services.jfif",
+    // text: " r&d_services.jfif ",
+    heading: "R&D",
+    // link: "/blockchain",
   },
   {
-    img: "AI_ML1.png",
-    text: "AI/ML course is an amalgamation of comprehensive and rigorous curriculum. It would cover key concepts and technologies of Artificial Intelligence and Machine Learning with higher utility value. ",
-    link: "/aiml",
+    img: "accelator_services.jfif",
+    // text: "accelator_services.jfif  ",
+    heading: "Accelator",
+    // link: "/aiml",
   },
+  {
+    img: "incubation_services.jfif",
+    // text: " incubation_services.jfif ",
+    heading: "Incubation",
+    // link: "/blockchain",
+  },
+  
 ];
 const University = () => {
   return (
