@@ -1,18 +1,25 @@
-import React from "react";
+import React, { useEffect } from "react";
+import "./AboutUs.css";
 
 const AboutUs = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div
       className="2xl:container 2xl:mx-auto lg:py-16 lg:px-20 md:py-12 md:px-6 py-9 px-4"
       style={{ marginTop: "100px", width: "90vw" }}
     >
       <p
-        style={{ fontSize: "30px", marginBottom: "20px" }}
+        style={{ fontSize: "30px", marginBottom: "20px", textAlign: "center" }}
         className="font-normal text-sm leading-3 text-indigo-700 hover:text-indigo-800 cursor-pointer pb-2"
       >
         About
       </p>
-      <div className="flex lg:flex-row flex-col lg:gap-8 sm:gap-10 gap-12">
+      <div
+        className="flex lg:flex-row flex-col lg:gap-8 sm:gap-10 gap-12"
+        style={{ background: "black", padding: "20px", borderRadius: "20px" }}
+      >
         <div className="w-full lg:w-6/12 mt-10 ">
           <h2
             className="w-full font-bold lg:text-4xl text-3xl lg:leading-10 leading-9"
@@ -52,6 +59,7 @@ const AboutUs = () => {
         </div>
       </div>
       <div
+        className="disablePage"
         style={{
           border: "2px solid white",
           padding: "20px",
@@ -212,7 +220,7 @@ const AboutUs = () => {
               the readable content of a page when looking at its layout.
             </p>
           </div>
-          <div className="sm:block hidden">
+          <div className="sm:block hidden ">
             <p
               style={{ color: "black" }}
               className="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800 mt-6"
@@ -231,7 +239,7 @@ const AboutUs = () => {
       </div>
 
       <div className="sm:hidden block relative mt-8">
-        <div className="grid sm:grid-cols-3 grid-cols-2 sm:gap-8 gap-4">
+        <div className="grid sm:grid-cols-3 grid-cols-2 sm:gap-8 gap-4 disablePage ">
           <svg
             className="z-20"
             width="48"
@@ -274,7 +282,7 @@ const AboutUs = () => {
         <hr className="z-10 absolute top-2/4 w-full bg-gray-200" />
       </div>
       <div className="sm:hidden grid sm:grid-cols-3 grid-cols-2 sm:gap-8 gap-4">
-        <div>
+        <div className="disablePage">
           <p
             style={{ color: "#e0dcd6" }}
             className="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800 mt-6"

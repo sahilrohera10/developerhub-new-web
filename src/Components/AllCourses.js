@@ -30,7 +30,7 @@ const CardArray2 = [
 export default function AllCourses() {
   return (
     <div className="AllCourses">
-      <p className="animate-charcter">Explore More Courses</p>
+      <p className="animate-charcter">Explore Courses</p>
       <div className="Card_Div">
         {CardArray.map((d) => (
           <Card data={d} />

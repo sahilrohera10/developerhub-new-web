@@ -11,10 +11,14 @@ export default function Newsletter() {
         <div className="md:px-12 lg:px-0 flex flex-col justify-start items-start lg:w-2/5 xl:w-3/12">
           <div>
             <p
-              style={{ color: "gainsboro" }}
+              style={{
+                color: "gainsboro",
+                fontSize: "20px",
+                fontWeight: "500",
+              }}
               className="text-sm leading-3 text-gray-600"
             >
-              Subscribe to our newsletter
+              NEWSLETTER
             </p>
           </div>
           <div className="xl:mt-4 mt-2">

@@ -1,6 +1,8 @@
 import React from "react";
+import AcceleratorPartner from "../Components/AcceleratorPartner";
 import AllCourses from "../Components/AllCourses";
 import Blog from "../Components/Blog";
+import Collaborate from "../Components/Collaborate";
 import Headers from "../Components/Header";
 import Newsletter from "../Components/Newsletter";
 import Partners from "../Components/Partners";
@@ -21,6 +23,8 @@ export default function LandingPage() {
       <Newsletter />
       <Partners />
       <UniPartner />
+      <AcceleratorPartner />
+      <Collaborate />
     </div>
   );
 }

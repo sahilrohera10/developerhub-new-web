@@ -242,32 +242,7 @@ h1{
         width: 323px;
         margin-top: 5px;
     }
-    /* .hero-container{
-        margin-left: -20px;
-        
-    }
-    .lead{
-        text-align: left;
-        margin-left: -85px;
-    }
-    .title{
-        font-size: 40px;
-    }
-    .typeAnimation{
-        font-size: 48px;
-        margin-left: -80px;
-
-        
-    }
-    .navbar{
-        margin:0px;
-        margin-right:50px
-    } */
    
-    /* .herodata{
-        position:absolute;
-        top: 30%;
-    } */
 }
 
 @media( min-width:992px) and (max-width : 11492px) {

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import InputLabel from "@mui/material/InputLabel";
 import MenuItem from "@mui/material/MenuItem";
 import FormControl from "@mui/material/FormControl";
@@ -68,6 +68,9 @@ function getStyles2(name, personName, theme) {
 const label = { inputProps: { "aria-label": "Checkbox demo" } };
 
 export default function FormBasic() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   function onChange(value) {
     console.log("Captcha value:", value);
   }
@@ -473,14 +476,32 @@ export default function FormBasic() {
                             component="form"
                             sx={{ display: "flex", flexWrap: "wrap" }}
                           >
-                             <Button variant="contained" component="label"  style={{margin:"2px"}} >
-                                 Upload PAN
-                               <input hidden accept="image/*" multiple type="file" />
-                              </Button>
-                              <Button variant="contained" component="label" style={{margin:"2px"}} >
-                                 Upload Aadhar
-                               <input hidden accept="image/*" multiple type="file" />
-                              </Button>
+                            <Button
+                              variant="contained"
+                              component="label"
+                              style={{ margin: "2px" }}
+                            >
+                              Upload PAN
+                              <input
+                                hidden
+                                accept="image/*"
+                                multiple
+                                type="file"
+                              />
+                            </Button>
+                            <Button
+                              variant="contained"
+                              component="label"
+                              style={{ margin: "2px" }}
+                            >
+                              Upload Aadhar
+                              <input
+                                hidden
+                                accept="image/*"
+                                multiple
+                                type="file"
+                              />
+                            </Button>
                           </Box>
                         </DialogContent>
                         <DialogActions>
@@ -945,14 +966,32 @@ export default function FormBasic() {
                             component="form"
                             sx={{ display: "flex", flexWrap: "wrap" }}
                           >
-                             <Button variant="contained" component="label"  style={{margin:"2px"}} >
-                                 Upload PAN
-                               <input hidden accept="image/*" multiple type="file" />
-                              </Button>
-                              <Button variant="contained" component="label" style={{margin:"2px"}} >
-                                 Upload Aadhar
-                               <input hidden accept="image/*" multiple type="file" />
-                              </Button>
+                            <Button
+                              variant="contained"
+                              component="label"
+                              style={{ margin: "2px" }}
+                            >
+                              Upload PAN
+                              <input
+                                hidden
+                                accept="image/*"
+                                multiple
+                                type="file"
+                              />
+                            </Button>
+                            <Button
+                              variant="contained"
+                              component="label"
+                              style={{ margin: "2px" }}
+                            >
+                              Upload Aadhar
+                              <input
+                                hidden
+                                accept="image/*"
+                                multiple
+                                type="file"
+                              />
+                            </Button>
                           </Box>
                         </DialogContent>
                         <DialogActions>
@@ -1204,14 +1243,32 @@ export default function FormBasic() {
                             component="form"
                             sx={{ display: "flex", flexWrap: "wrap" }}
                           >
-                            <Button variant="contained" component="label"  style={{margin:"2px"}} >
-                                 Upload PAN
-                               <input hidden accept="image/*" multiple type="file" />
-                              </Button>
-                              <Button variant="contained" component="label" style={{margin:"2px"}} >
-                                 Upload Aadhar
-                               <input hidden accept="image/*" multiple type="file" />
-                              </Button>
+                            <Button
+                              variant="contained"
+                              component="label"
+                              style={{ margin: "2px" }}
+                            >
+                              Upload PAN
+                              <input
+                                hidden
+                                accept="image/*"
+                                multiple
+                                type="file"
+                              />
+                            </Button>
+                            <Button
+                              variant="contained"
+                              component="label"
+                              style={{ margin: "2px" }}
+                            >
+                              Upload Aadhar
+                              <input
+                                hidden
+                                accept="image/*"
+                                multiple
+                                type="file"
+                              />
+                            </Button>
                           </Box>
                         </DialogContent>
                         <DialogActions>

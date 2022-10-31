@@ -32,6 +32,11 @@ const steps = [
       "Master the technology by trying hands on and creating some AWESOME stuff",
   },
   {
+    label: "Get Certified",
+    description:
+      "Master the technology by trying hands on, create some AWESOME stuff and get certified",
+  },
+  {
     label: "Get Placement Support",
     description: `After boosting your career, get into your DREAM companies with your DREAM offers. `,
   },
@@ -65,7 +70,7 @@ export default function Roadmap() {
                 <Step key={step.label}>
                   <StepLabel
                     optional={
-                      index === 4 ? (
+                      index === 5 ? (
                         <Typography variant="caption">Last step</Typography>
                       ) : null
                     }
