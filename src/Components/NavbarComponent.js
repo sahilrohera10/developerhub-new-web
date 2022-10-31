@@ -3,9 +3,16 @@ import "./header.css";
 import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
 import Dropdown from "react-bootstrap/Dropdown";
 import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+
 
 export default function NavComponent() {
-  // const [navbar,setNavbar]=useState(false);
+
+  const navigate = useNavigate()
+  const goto=()=>{
+    navigate("/");
+    hideSidebar();
+  }
   const [navbar, setNavbar] = useState(false);
   const changeBg = () => {
     if (window.scrollY >= 50) {
@@ -55,16 +62,40 @@ export default function NavComponent() {
           >
             <Nav className="me-auto">{/* //siderow */}</Nav>
             <Nav className="navcontent">
-              <Nav.Link className="navdrop">
-                <Link to="/" onClick={hideSidebar}>
-                  Home
-                </Link>
-              </Nav.Link>
-              <Nav.Link className="navdrop">
-                <Link to="/about" onClick={hideSidebar}>
-                  About
-                </Link>
-              </Nav.Link>
+            <NavDropdown  onDoubleClick={goto}
+                className="navdrop"
+                title="Home"
+                id="collasible-nav-dropdown"
+              >
+                <NavDropdown.Item onClick={hideSidebar}>
+                  {" "}
+                  <Link
+                    style={{ textDecoration: "none", color: "black" }}
+                    to="/about"
+                  >
+                    About Us
+                  </Link>{" "}
+                </NavDropdown.Item>
+
+                <NavDropdown.Item onClick={hideSidebar}>
+                  {" "}
+                  <Link
+                    to="/management-team"
+                    style={{ textDecoration: "none", color: "black" }}
+                  >
+                    Management Team
+                  </Link>{" "}
+                </NavDropdown.Item>
+                <NavDropdown.Item onClick={hideSidebar}>
+                  {" "}
+                  <Link
+                    style={{ textDecoration: "none", color: "black" }}
+                    to="/training-team"
+                  >
+                    Training Team
+                  </Link>{" "}
+                </NavDropdown.Item>
+                </NavDropdown>
 
               <NavDropdown
                 className="navdrop"
