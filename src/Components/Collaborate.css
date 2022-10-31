@@ -1,0 +1,21 @@
+.collab-btn{
+    margin-left: 200px;
+}
+
+@media screen and (max-width : 1441px) {
+
+    .collab-btn{
+        margin-left: 150px;
+    }}
+
+@media screen and (max-width : 1000px) {
+
+    .collab-btn{
+        margin-left: 100px;
+    }}
+
+@media screen and (max-width : 426px) {
+
+    .collab-btn{
+        margin-left: 0px;
+    }}

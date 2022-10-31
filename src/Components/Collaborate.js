@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./Collaborate.css";
 function Collaborate() {
   return (
     <div className=" overflow-y-hidden">
@@ -26,10 +27,9 @@ function Collaborate() {
                   </div>
                   <Link to="/form">
                     <button
-                      style={{ marginLeft: "200px" }}
                       role="button"
                       aria-label="Join the community"
-                      className="mt-5 lg:mt-8 py-3 lg:py-4 px-4 lg:px-8 bg-white font-bold text-indigo-700 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-opacity-90  focus:ring-2 focus:ring-offset-2 focus:ring-white focus:outline-none"
+                      className="mt-5 lg:mt-8 py-3 lg:py-4 px-4 lg:px-8 bg-white font-bold text-indigo-700 rounded-lg text-sm lg:text-lg xl:text-xl hover:bg-opacity-90  focus:ring-2 focus:ring-offset-2 focus:ring-white focus:outline-none collab-btn"
                     >
                       Let's Collaborate
                     </button>
