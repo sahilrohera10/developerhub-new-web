@@ -1,0 +1,54 @@
+.enter-main{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 150px;
+    width: 90vw;
+    margin-left: 50px;
+   
+}
+.enterImgs{
+    width: 30vw;
+    height: 40vh;
+    cursor: pointer;
+    /* border-radius: 50px; */
+}
+
+@media screen and (max-width : 426px) {
+
+    .enter-main{
+        display: block;
+       padding-left: 50px;
+       margin-left: 10px;
+    }
+    .enterImgs{
+        width: 70vw;
+        margin-bottom: 30px;
+    }
+    
+}
+@media screen and (max-width : 376px) {
+
+    .enter-main{
+        
+       padding-left: 40px;
+    }
+    .enterImgs{
+        width: 65vw;
+        height: 30vh;
+        margin-bottom: 30px;
+    }
+    
+}
+@media screen and (max-width : 321px) {
+
+    .enter-main{
+        
+       padding-left: 30px;
+    }
+    .enterImgs{
+        width: 65vw;
+        height: 25vh;
+        margin-bottom: 30px;
+    }
+    
+}

@@ -1,26 +1,23 @@
 .University_card {
   width: 31%;
-  height: 530px;
+  height: 350px;
   display: flex;
   flex-direction: column;
-  gap: 1.2rem;
-  border: 2px solid white;
-  border-radius: 1rem;
+  border-radius: 2rem;
 }
 .University_card_img {
-  height: 280px;
+  height: 230px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .University_card_img img {
-  width: 94%;
-  height: 94%;
-  filter: brightness(0.7);
-  border-radius: 1.5rem;
+  width: 100%;
+  height: 100%;
+  border-top-right-radius: 1.8rem;
 }
 .University_card_img img:hover {
-  filter: brightness(1);
+  filter: brightness(0.7);
 }
 .university_card_text {
   color: white;
@@ -28,12 +25,18 @@
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  gap: 0.2rem;
+
   padding-bottom: 1rem;
-  padding: 0.6rem;
+}
+.card_text_heading {
+  background-color: rgb(0, 36, 125);
+  width: 100%;
+  font-size: larger;
+  text-align: center;
+  padding: 0.3rem;
 }
 .card_text {
-  height: 140px;
+  height: 60px;
   font-size: 15px;
 }
 

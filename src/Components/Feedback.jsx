@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./feedback.css";
 import { FaFileAlt } from "react-icons/fa";
 
 const Feedback = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="FContainer">
       <div className="main1">

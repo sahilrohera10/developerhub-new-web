@@ -5,14 +5,12 @@ import Dropdown from "react-bootstrap/Dropdown";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 
-
 export default function NavComponent() {
-
-  const navigate = useNavigate()
-  const goto=()=>{
+  const navigate = useNavigate();
+  const goto = () => {
     navigate("/");
     hideSidebar();
-  }
+  };
   const [navbar, setNavbar] = useState(false);
   const changeBg = () => {
     if (window.scrollY >= 50) {
@@ -47,7 +45,6 @@ export default function NavComponent() {
           >
             <Link to="/" style={{ textDecoration: "none", color: "white" }}>
               <b>
-                <logo>//</logo>
                 <logoname>Unbounce</logoname>{" "}
               </b>
             </Link>
@@ -62,7 +59,8 @@ export default function NavComponent() {
           >
             <Nav className="me-auto">{/* //siderow */}</Nav>
             <Nav className="navcontent">
-            <NavDropdown  onDoubleClick={goto}
+              <NavDropdown
+                onDoubleClick={goto}
                 className="navdrop"
                 title="Home"
                 id="collasible-nav-dropdown"
@@ -95,7 +93,7 @@ export default function NavComponent() {
                     Training Team
                   </Link>{" "}
                 </NavDropdown.Item>
-                </NavDropdown>
+              </NavDropdown>
 
               <NavDropdown
                 className="navdrop"
@@ -158,7 +156,7 @@ export default function NavComponent() {
                 <NavDropdown.Item onClick={hideSidebar}>
                   {" "}
                   <Link
-                    to="/coming"
+                    to="/corporate"
                     style={{ textDecoration: "none", color: "black" }}
                   >
                     Corporate
@@ -167,7 +165,7 @@ export default function NavComponent() {
                 <NavDropdown.Item onClick={hideSidebar}>
                   {" "}
                   <Link
-                    to="/coming"
+                    to="/fresher"
                     style={{ textDecoration: "none", color: "black" }}
                   >
                     Fresher
@@ -176,7 +174,7 @@ export default function NavComponent() {
                 <NavDropdown.Item onClick={hideSidebar}>
                   {" "}
                   <Link
-                    to="/coming"
+                    to="/software"
                     style={{ textDecoration: "none", color: "black" }}
                   >
                     Software Engg.

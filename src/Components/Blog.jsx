@@ -76,13 +76,13 @@ import "./blog.css";
 function Blog() {
   return (
     <>
-      <div id="blog" className="px-4 xl:px-0 py-12 mt-32">
+      <div id="blog" className="px-4 xl:px-0 py-12 mt-20">
         <div className="mx-auto container" style={{ width: "90vw" }}>
           <h1
             style={{ color: "white" }}
             className="text-center text-3xl lg:text-5xl tracking-wider text-gray-900"
           >
-            Latest from our Blog
+            Blogs
           </h1>
           <div className="mt-12 lg:mt-24">
             <div className="grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-8">

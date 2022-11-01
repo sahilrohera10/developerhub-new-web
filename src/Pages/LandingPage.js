@@ -14,6 +14,7 @@ import adImg from "../assets/ad-img.jpeg";
 import "./LandingPage.css";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import Enter from "../Components/Enter";
 
 export default function LandingPage() {
   const [display, setDisplay] = useState("block");
@@ -36,6 +37,7 @@ export default function LandingPage() {
       <Quote />
       <AllCourses />
       <Roadmap />
+      <Enter />
       <Blog />
       <Testimonial />
       <Newsletter />

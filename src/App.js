@@ -19,6 +19,9 @@ import AboutUs from "./Pages/AboutUs";
 import ContactUs from "./Pages/ContactUs";
 import ScrollToTop from "react-scroll-to-top";
 import Feedback from "./Components/Feedback";
+import Fresher from "./Components/Fresher";
+import Corporate from "./Components/Corporate";
+import Software from "./Components/Software";
 
 function App() {
   return (
@@ -27,6 +30,9 @@ function App() {
       <NavComponent />
       <Routes>
         <Route path="/" element={<LandingPage />}></Route>
+        <Route path="/software" element={<Software />}></Route>
+        <Route path="/corporate" element={<Corporate />}></Route>
+        <Route path="/fresher" element={<Fresher />}></Route>
         <Route path="/feedback" element={<Feedback />}></Route>
         <Route path="/contact" element={<ContactUs />}></Route>
         <Route path="/about" element={<AboutUs />}></Route>
