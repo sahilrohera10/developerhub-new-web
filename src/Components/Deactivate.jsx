@@ -3,9 +3,12 @@ import './Deactivate.css'
 import SentimentVeryDissatisfiedIcon from '@mui/icons-material/SentimentVeryDissatisfied';
 import ToggleButton from '@mui/material/ToggleButton';
 import Button from '@mui/material/Button';
-import { confirm } from "react-confirm-box";
 import { useNavigate } from "react-router-dom";
-
+import Dialog from '@mui/material/Dialog';
+import DialogActions from '@mui/material/DialogActions';
+import DialogContent from '@mui/material/DialogContent';
+import DialogContentText from '@mui/material/DialogContentText';
+import DialogTitle from '@mui/material/DialogTitle';
 
 
 const Deactivate = () => {
@@ -15,21 +18,18 @@ const Deactivate = () => {
     const [selected4, setSelected4] = React.useState(false);
     const [selected5, setSelected5] = React.useState(false);
     const [selected6, setSelected6] = React.useState(false);
-   
-    const navigate = useNavigate();
 
-    const onClick = async () => {
-        const result = await confirm("Are you sure?");
-        if (result) {
-          navigate("/success");
-          console.log("You click yes!");
-          return;
-        }
-        navigate("/");
-        console.log("You click No!");
-      };
-  
-   
+    const navigate = useNavigate();
+    const [open, setOpen] = React.useState(false);
+
+    const handleClickOpen = () => {
+        setOpen(true);
+    };
+
+    const handleClose = () => {
+        setOpen(false);
+    };
+
     return (
         <div className="DContainer">
             <div className="main1">
@@ -128,9 +128,31 @@ const Deactivate = () => {
                                 placeholder="I'm leaving because..."
                             ></textarea>
                             <div className="button_clss">
-
-                                <Button variant="contained" style={{marginRight:'25px'}} onClick={onClick}>Deactivate</Button>
-                                <Button variant="outlined" style={{marginRight:'12px'}} onClick={()=>navigate('/')}>Cancel</Button>
+                                <Dialog
+                                    open={open}
+                                    onClose={handleClose}
+                                    aria-labelledby="alert-dialog-title"
+                                    aria-describedby="alert-dialog-description"
+                                >
+                                    <DialogTitle id="alert-dialog-title">
+                                        {"Are you sure ?"}
+                                    </DialogTitle>
+                                    <DialogContent>
+                                        <DialogContentText id="alert-dialog-description">
+                                           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod laboriosam odio eum 
+                                           tempora nesciunt dolorum ullam dignissimos? Quos corrupti voluptatibus numquam 
+                                           architecto ut!
+                                        </DialogContentText>
+                                    </DialogContent>
+                                    <DialogActions>
+                                        <Button onClick={()=>navigate('/')}>No</Button>
+                                        <Button onClick={()=>navigate('/success')} autoFocus>
+                                            Yes
+                                        </Button>
+                                    </DialogActions>
+                                </Dialog>
+                                <Button variant="contained" style={{ marginRight: '25px' }} onClick={handleClickOpen}>Deactivate</Button>
+                                <Button variant="outlined" style={{ marginRight: '12px' }} onClick={() => navigate('/')}>Cancel</Button>
                             </div>
                         </div>
                     </div>
