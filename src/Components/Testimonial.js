@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 export default function Testimonial() {
   return (
@@ -30,7 +31,14 @@ export default function Testimonial() {
           aria-label="Testimonials"
           className="xl:w-1/2 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-6 flex-wrap justify-center items-start"
         >
-          <div role="listitem" className="bg-white shadow rounded p-4 xl:p-8">
+          <motion.div
+            viewport={{ once: false }}
+            initial={{ opacity: 0, x: -50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ type: "easeIn", duration: 1.15, delay: 0.15 }}
+            role="listitem"
+            className="bg-white shadow rounded p-4 xl:p-8"
+          >
             <img
               src="https://cdn.tuk.dev/assets/components/26May-update/quote.png"
               aria-hidden="true"
@@ -54,8 +62,15 @@ export default function Testimonial() {
                 role="img"
               />
             </div>
-          </div>
-          <div role="listitem" className="bg-white shadow rounded p-4 xl:p-8">
+          </motion.div>
+          <motion.div
+            viewport={{ once: false }}
+            initial={{ opacity: 0, x: -50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ type: "easeIn", duration: 1.15, delay: 0.15 }}
+            role="listitem"
+            className="bg-white shadow rounded p-4 xl:p-8"
+          >
             <img
               src="https://cdn.tuk.dev/assets/components/26May-update/quote.png"
               aria-hidden="true"
@@ -77,8 +92,15 @@ export default function Testimonial() {
                 role="img"
               />
             </div>
-          </div>
-          <div role="listitem" className="bg-white shadow rounded p-4 xl:p-8">
+          </motion.div>
+          <motion.div
+            viewport={{ once: false }}
+            initial={{ opacity: 0, x: -50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ type: "easeIn", duration: 1.15, delay: 0.15 }}
+            role="listitem"
+            className="bg-white shadow rounded p-4 xl:p-8"
+          >
             <img
               src="https://cdn.tuk.dev/assets/components/26May-update/quote.png"
               aria-hidden="true"
@@ -100,7 +122,7 @@ export default function Testimonial() {
                 role="img"
               />
             </div>
-          </div>
+          </motion.div>
           <button className="md:hidden w-full sm:w-auto mt-4 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 flex items-start justify-center sm:justify-start px-8 py-4 bg-indigo-700 hover:bg-gray-600 rounded text-base font-medium leading-none text-center text-white">
             Read success stories
           </button>
