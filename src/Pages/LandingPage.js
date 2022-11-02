@@ -15,6 +15,7 @@ import "./LandingPage.css";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import Enter from "../Components/Enter";
+import RDpartner from "../Components/RDpartner";
 
 export default function LandingPage() {
   const [display, setDisplay] = useState("block");
@@ -44,6 +45,7 @@ export default function LandingPage() {
       <Partners />
       <UniPartner />
       <AcceleratorPartner />
+      <RDpartner />
       <Collaborate />
     </div>
   );

@@ -22,6 +22,7 @@ import Feedback from "./Components/Feedback";
 import Fresher from "./Components/Fresher";
 import Corporate from "./Components/Corporate";
 import Software from "./Components/Software";
+import Deactivate from "./Components/Deactivate";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
       <NavComponent />
       <Routes>
         <Route path="/" element={<LandingPage />}></Route>
+        <Route path="/deactivate" element={<Deactivate />}></Route>
         <Route path="/software" element={<Software />}></Route>
         <Route path="/corporate" element={<Corporate />}></Route>
         <Route path="/fresher" element={<Fresher />}></Route>
