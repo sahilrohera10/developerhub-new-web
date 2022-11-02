@@ -18,7 +18,7 @@ import Enter from "../Components/Enter";
 import RDpartner from "../Components/RDpartner";
 
 export default function LandingPage() {
-  const [display, setDisplay] = useState("block");
+  // const [display, setDisplay] = useState("block");
   return (
     <div>
       {/* <img className="ad" style={{ display: display }} src={adImg} alt="" />

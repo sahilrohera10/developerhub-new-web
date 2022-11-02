@@ -1,9 +1,23 @@
 import React from "react";
 import "./Quote.css";
+import { motion } from "framer-motion";
 
 export default function Quote() {
   return (
-    <div className="about">
+    <motion.div
+      // initial={{ opacity: 0, scale: 0.5 }}
+      // animate={{ opacity: 1, scale: 1 }}
+      // transition={{
+      //   duration: 0.8,
+      //   delay: 0.5,
+      //   ease: [0, 0.71, 0.2, 1.01],
+      // }}
+      viewport={{ once: false }}
+      initial={{ opacity: 0, x: 50 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      transition={{ type: "easeIn", duration: 1.15, delay: 0.15 }}
+      className="about"
+    >
       <p className="about-up">
         <span style={{ color: "#9340FF" }}>
           Blockchain, Metaverse, AR/VR and AI/ML
@@ -18,6 +32,6 @@ export default function Quote() {
         career in the futuristic technologies like these you need to be on the
         top of technology courses.
       </p>
-    </div>
+    </motion.div>
   );
 }
