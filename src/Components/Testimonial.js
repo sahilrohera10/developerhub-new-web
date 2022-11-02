@@ -38,15 +38,18 @@ export default function Testimonial() {
             <div className="pl-4 pt-4 flex items-start justify-between">
               <div className="mr-6">
                 <p className="xl:text-xl xl:leading-loose text-gray-600">
-                  This website has a bunch of amazing components which improves
-                  my design
+                  Course is really very good , teacher is explaining in very
+                  details along with important definition, I think this is the
+                  best course for Blockchain in Unbounce if you're looking for
+                  the same go with this course .
                 </p>
                 <p className="mt-4 text-base font-semibold leading-none text-gray-800">
-                  Anna Smith
+                  Yash Singhal
                 </p>
               </div>
               <img
-                src="https://cdn.tuk.dev/assets/components/26May-update/avatar-1.png"
+                style={{ width: "70px", height: "70px", borderRadius: "50px" }}
+                src="https://technomaits.vercel.app/singhal.jpeg"
                 alt="Display Avatar of Anna Smith"
                 role="img"
               />
@@ -60,15 +63,16 @@ export default function Testimonial() {
             <div className="pl-4 pt-4 flex items-start justify-between">
               <div className="mr-6">
                 <p className="xl:text-xl xl:leading-loose text-gray-600">
-                  This website has a bunch of amazing components which improves
-                  my design
+                  My experience with Unbounce was wonderful. The courses
+                  strengthened my concepts and helped me in my interviews.
                 </p>
                 <p className="mt-4 text-base font-semibold leading-none text-gray-800">
-                  Dany John
+                  Sahil Rohera
                 </p>
               </div>
               <img
-                src="https://cdn.tuk.dev/assets/components/26May-update/avatar-2.png"
+                style={{ width: "70px", height: "70px", borderRadius: "50px" }}
+                src="https://technomaits.vercel.app/rohera.jpeg"
                 alt="Display avatar of Dany John"
                 role="img"
               />
@@ -82,15 +86,16 @@ export default function Testimonial() {
             <div className="pl-4 pt-4 flex items-start justify-between">
               <div className="mr-6">
                 <p className="xl:text-xl xl:leading-loose text-gray-600">
-                  This website has a bunch of amazing components which improves
-                  my design
+                  I liked how they broke down the course into easy to understand
+                  bits.
                 </p>
                 <p className="mt-4 text-base font-semibold leading-none text-gray-800">
-                  Mike Blake
+                  Yash Raj Hans
                 </p>
               </div>
               <img
-                src="https://cdn.tuk.dev/assets/components/26May-update/avatar-3.png"
+                style={{ width: "70px", height: "70px", borderRadius: "50px" }}
+                src="https://technomaits.vercel.app/yrh.jpeg"
                 alt="Display Avatar of Mike Blake"
                 role="img"
               />

@@ -22,14 +22,34 @@ import Feedback from "./Components/Feedback";
 import Fresher from "./Components/Fresher";
 import Corporate from "./Components/Corporate";
 import Software from "./Components/Software";
+import Deactivate from "./Components/Deactivate";
+import { useState } from "react";
+import { Link } from "react-router-dom";
+import adImg from "./assets/ad-img.jpeg";
 
 function App() {
+  const [display, setDisplay] = useState("block");
+
   return (
     <div className="App">
       <ScrollToTop smooth width="40" />
       <NavComponent />
+      <img className="ad" style={{ display: display }} src={adImg} alt="" />
+      <p
+        className="close-btn"
+        style={{ display: display }}
+        onClick={() => setDisplay("none")}
+      >
+        X
+      </p>
+      <Link to="/form">
+        <button style={{ display: display }} className="apply-btn">
+          Apply Now
+        </button>
+      </Link>
       <Routes>
         <Route path="/" element={<LandingPage />}></Route>
+        <Route path="/deactivate" element={<Deactivate />}></Route>
         <Route path="/software" element={<Software />}></Route>
         <Route path="/corporate" element={<Corporate />}></Route>
         <Route path="/fresher" element={<Fresher />}></Route>

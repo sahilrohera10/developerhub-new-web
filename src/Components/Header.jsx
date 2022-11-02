@@ -5,6 +5,7 @@ import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
 import Dropdown from "react-bootstrap/Dropdown";
 import Button from "@mui/material/Button";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 
 const Headers = () => {
   return (
@@ -12,7 +13,23 @@ const Headers = () => {
       <hero>
         <div className="container-new col-xxl-12 px-4">
           <div className="row align-items-center g-5">
-            <div className="col-lg-6 header-content-div">
+            {/* <motion.div    initial={{ opacity: 0, scale: 0.5 }}
+      animate={{ opacity: 1, scale: 1 }}
+      transition={{
+        duration: 0.8,
+        delay: 0.5,
+        ease: [0, 0.71, 0.2, 1.01]
+      }} */}
+            <motion.div
+              initial={{ opacity: 0, scale: 0.5 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{
+                duration: 0.8,
+                delay: 0.5,
+                ease: [0, 0.71, 0.2, 1.01],
+              }}
+              className="col-lg-6 header-content-div"
+            >
               {/* <h1 className="title">Courses Available</h1> */}
 
               <TypeAnimation
@@ -36,7 +53,9 @@ const Headers = () => {
               />
               <div className="lead">
                 Let's go invent tomorrow instead of worring about what happened
-                yesterday.<br/><br/>
+                yesterday.
+                <br />
+                <br />
                 <Link
                   to="/blockchain"
                   style={{ textDecoration: "none", color: "white" }}
@@ -54,10 +73,9 @@ const Headers = () => {
                   </Button>
                 </Link>
               </div>
-              <div className="d-grid gap-2 d-md-flex justify-content-md-start">
-                
-              </div>
-            </div>
+              <div className="d-grid gap-2 d-md-flex justify-content-md-start"></div>
+            </motion.div>
+            {/* /> */}
           </div>
         </div>
       </hero>

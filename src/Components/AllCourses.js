@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "./Card";
 import "./AllCourses.css";
+import { motion } from "framer-motion";
 
 const CardArray = [
   {

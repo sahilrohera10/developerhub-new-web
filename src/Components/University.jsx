@@ -36,7 +36,7 @@ const CardArray = [
   {
     img: "accelator_services.jfif",
     // text: "accelator_services.jfif  ",
-    heading: "Accelator",
+    heading: "Accelerator",
     // link: "/aiml",
   },
   {
