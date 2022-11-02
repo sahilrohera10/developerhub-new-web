@@ -72,6 +72,8 @@ import "./blog.css";
 // export default Blog;
 
 import React from "react";
+import { motion } from "framer-motion";
+
 import "./blog.css";
 function Blog() {
   return (
@@ -86,15 +88,21 @@ function Blog() {
           </h1>
           <div className="mt-12 lg:mt-24">
             <div className="grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-8">
-              <div className="blog-card">
+              <motion.div
+                viewport={{ once: false }}
+                initial={{ opacity: 0, x: -70 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                transition={{ type: "easeIn", duration: 1.0, delay: 0.15 }}
+                className="blog-card"
+              >
                 <img
                   className="w-full"
                   src="https://cdn.tuk.dev/assets/components/111220/Blg-6/blog(1).png"
                   alt="computer"
                 />
                 <div className="py-4 px-8 w-full flex justify-between bg-indigo-700">
-                  <p className="text-sm text-white font-semibold tracking-wide">
-                    Bruce Wayne
+                  <p className="text-xl text-white font-semibold tracking-wide">
+                    Opportunities
                   </p>
                   <p className="text-sm text-white font-semibold tracking-wide">
                     13TH Oct, 2020
@@ -104,22 +112,28 @@ function Blog() {
                   // style={{ height: "52vh" }}
                   className="bg-white px-5 py-6 rounded-bl-3xl rounded-br-3xl"
                 >
-                  <h1 className="text-4xl text-gray-900 font-semibold tracking-wider blog-header">
-                    Transactions
-                  </h1>
+                  {/* <h1 className="text-4xl text-gray-900 font-semibold tracking-wider blog-header">
+                    Opportunities
+                  </h1> */}
                   <p className="text-gray-700 text-base lg:text-lg  lg:leading-8 tracking-wide mt-6 w-11/12">
-                    Find the latest events updates or create events, concerts,
-                    conferences, workshops, exhibitions, and cultural events in
-                    all cities of the US. The aim of Eventistan is to promote
-                    healthy and entertaining event.Find the latest events
-                    updates or create events, concerts, conferences, workshops,
-                    exhibitions, and cultural events in all cities of the US.
+                    For all start-ups, businesses, and enterprises, blockchain
+                    development could be a great opportunity. Since the
+                    companies get transparent, efficient, and automated versions
+                    of businesses with the wide gamut of blockchain development,
+                    the requirement for blockchain developers has come up
+                    steeply.Blockchain development services providers are here
+                    to take businesses to the web 3.0 world.
                   </p>
 
                   <div className="h-5 w-2" />
                 </div>
-              </div>
-              <div>
+              </motion.div>
+              <motion.div
+                viewport={{ once: false }}
+                initial={{ opacity: 0, x: 70 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                transition={{ type: "easeIn", duration: 1.0, delay: 0.15 }}
+              >
                 <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-8">
                   <div className="blog-card">
                     <img
@@ -129,19 +143,20 @@ function Blog() {
                     />
                     <div className="py-2 px-4 w-full flex justify-between bg-indigo-700">
                       <p className="text-sm text-white font-semibold tracking-wide">
-                        Bruce Wayne
+                        Smart Contracts
                       </p>
                       <p className="text-sm text-white font-semibold tracking-wide">
                         13TH Oct, 2020
                       </p>
                     </div>
                     <div className="bg-white px-3  lg:px-6 py-4 rounded-bl-3xl rounded-br-3xl">
-                      <h1 className="text-lg text-gray-900 font-semibold tracking-wider">
+                      {/* <h1 className="text-lg text-gray-900 font-semibold tracking-wider">
                         Transactions
-                      </h1>
+                      </h1> */}
                       <p className="text-gray-700 text-sm  lg:text-base  lg:leading-8 pr-4 tracking-wide mt-2">
-                        Find the latest events updates or create events,
-                        concerts, conferences, workshops...
+                        Smart contract developers craft immutable and accurate
+                        smart contracts, so enterprises run their business
+                        conflict-free.
                       </p>
                     </div>
                   </div>
@@ -153,19 +168,18 @@ function Blog() {
                     />
                     <div className="py-2 px-4 w-full flex justify-between bg-indigo-700">
                       <p className="text-sm text-white font-semibold tracking-wide">
-                        Bruce Wayne
+                        Marketplaces
                       </p>
                       <p className="text-sm text-white font-semibold tracking-wide">
                         13TH Oct, 2020
                       </p>
                     </div>
                     <div className="bg-white px-3  lg:px-6 py-4 rounded-bl-3xl rounded-br-3xl">
-                      <h1 className="text-lg text-gray-900 font-semibold tracking-wider">
-                        Transactions
-                      </h1>
                       <p className="text-gray-700 text-sm  lg:text-base  lg:leading-8 pr-4 tracking-wide mt-2">
-                        Find the latest events updates or create events,
-                        concerts, conferences, workshops...
+                        When you learn blockchain development skills, you also
+                        get to work on white-label marketplaces that enable the
+                        business grow further as it lets them move design
+                        elements.
                       </p>
                     </div>
                   </div>
@@ -179,19 +193,16 @@ function Blog() {
                     />
                     <div className="py-2 px-4 w-full flex justify-between bg-indigo-700">
                       <p className="text-sm text-white font-semibold tracking-wide">
-                        Bruce Wayne
+                        Develop dApp
                       </p>
                       <p className="text-sm text-white font-semibold tracking-wide">
                         13TH Oct, 2020
                       </p>
                     </div>
                     <div className="bg-white px-3  lg:px-6 py-4 rounded-bl-3xl rounded-br-3xl">
-                      <h1 className="text-lg text-gray-900 font-semibold tracking-wider">
-                        Transactions
-                      </h1>
                       <p className="text-gray-700 text-sm  lg:text-base  lg:leading-8 pr-4 tracking-wide mt-2">
-                        Find the latest events updates or create events,
-                        concerts, conferences, workshops...
+                        Helping businesses build secure and engaging
+                        Applications with the unique set of dApp development.
                       </p>
                     </div>
                   </div>
@@ -203,24 +214,21 @@ function Blog() {
                     />
                     <div className="py-2 px-4 w-full flex justify-between bg-indigo-700">
                       <p className="text-sm text-white font-semibold tracking-wide">
-                        Bruce Wayne
+                        NFT Minting
                       </p>
                       <p className="text-sm text-white font-semibold tracking-wide">
                         13TH Oct, 2020
                       </p>
                     </div>
                     <div className="bg-white px-3  lg:px-6 py-4 rounded-bl-3xl rounded-br-3xl">
-                      <h1 className="text-lg text-gray-900 font-semibold tracking-wider">
-                        Transactions
-                      </h1>
                       <p className="text-gray-700 text-sm  lg:text-base  lg:leading-8 pr-4 tracking-wide mt-2">
-                        Find the latest events updates or create events,
-                        concerts, conferences, workshops...
+                        With blockchain skills you can mint NFTs, sell them
+                        online at decentralized NFT marketplaces.
                       </p>
                     </div>
                   </div>
                 </div>
-              </div>
+              </motion.div>
             </div>
           </div>
         </div>

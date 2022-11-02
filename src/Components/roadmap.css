@@ -10,8 +10,11 @@
     gap: 3rem;
     margin-top: 100px;
 }
+
 /* span{color: aliceblue;} */
 .roadmap_container{
+    border-radius: 20px;
+
     width: 85vw;
     display: flex;
     flex-direction: column;

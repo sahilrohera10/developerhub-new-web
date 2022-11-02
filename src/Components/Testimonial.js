@@ -37,7 +37,7 @@ export default function Testimonial() {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ type: "easeIn", duration: 1.15, delay: 0.15 }}
             role="listitem"
-            className="bg-white shadow rounded p-4 xl:p-8"
+            className="bg-white shadow rounded p-3 xl:p-8"
           >
             <img
               src="https://cdn.tuk.dev/assets/components/26May-update/quote.png"
@@ -46,10 +46,9 @@ export default function Testimonial() {
             <div className="pl-4 pt-4 flex items-start justify-between">
               <div className="mr-6">
                 <p className="xl:text-xl xl:leading-loose text-gray-600">
-                  Course is really very good , teacher is explaining in very
-                  details along with important definition, I think this is the
-                  best course for Blockchain in Unbounce if you're looking for
-                  the same go with this course .
+                  Course is really very good ,I think this is the best course
+                  for Blockchain in Unbounce if you're looking for the same go
+                  with this course .
                 </p>
                 <p className="mt-4 text-base font-semibold leading-none text-gray-800">
                   Yash Singhal
@@ -69,7 +68,7 @@ export default function Testimonial() {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ type: "easeIn", duration: 1.15, delay: 0.15 }}
             role="listitem"
-            className="bg-white shadow rounded p-4 xl:p-8"
+            className="bg-white shadow rounded p-3 xl:p-8"
           >
             <img
               src="https://cdn.tuk.dev/assets/components/26May-update/quote.png"
@@ -99,7 +98,7 @@ export default function Testimonial() {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ type: "easeIn", duration: 1.15, delay: 0.15 }}
             role="listitem"
-            className="bg-white shadow rounded p-4 xl:p-8"
+            className="bg-white shadow rounded p-3 xl:p-8"
           >
             <img
               src="https://cdn.tuk.dev/assets/components/26May-update/quote.png"
