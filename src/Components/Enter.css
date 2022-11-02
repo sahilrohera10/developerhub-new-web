@@ -1,54 +1,84 @@
 .enter-main{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin-top: 150px;
-    width: 90vw;
-    margin-left: 50px;
-   
+    width: 70vw;
+    border:2px solid white;
+    border-radius: 22px;
+    background-color: black;
+    padding: 30px;
+    margin-left: 200px;
+    
+    
 }
 .enterImgs{
-    width: 30vw;
-    height: 40vh;
-    cursor: pointer;
-    /* border-radius: 50px; */
+    width: 15vw;
+    height: 25vh;
+    
+    box-shadow: 20px;
+    border-radius: 60px 60px 0px 0px ;
 }
 
-@media screen and (max-width : 426px) {
+.ask_Q ,.Feed_back{
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: blue;
+    width: 100%;
+    padding: 1.3rem;
+    border-radius: 0px 0px 0px 60px;
 
-    .enter-main{
-        display: block;
-       padding-left: 50px;
-       margin-left: 10px;
-    }
-    .enterImgs{
-        width: 70vw;
-        margin-bottom: 30px;
-    }
-    
 }
-@media screen and (max-width : 376px) {
+.arrow_i
+{
+    margin-left: 1rem;
 
-    .enter-main{
-        
-       padding-left: 40px;
-    }
-    .enterImgs{
-        width: 65vw;
-        height: 30vh;
-        margin-bottom: 30px;
-    }
-    
 }
-@media screen and (max-width : 321px) {
+.main_a ,.main_b{
+    box-shadow: 8px -9px 20px 0px grey;
+    border-radius: 60px;
 
+}
+@media only screen and (max-width:650px) {
     .enter-main{
-        
-       padding-left: 30px;
-    }
-    .enterImgs{
-        width: 65vw;
-        height: 25vh;
-        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        width: 97%;
+        margin: 3rem 0  ;
     }
     
+    .enterImgs{
+       width:100%;
+       
+    }
+    .main_b,.main_a{
+        width: auto;
+        margin: 2rem ;
+    }
+}
+@media only screen and (min-width:650px) and (max-width:1200px) {
+    .enter-main{
+  
+       
+        width: 100%;
+        margin: 2rem 0;
+    }
+    
+    .enterImgs{
+       width:100%;
+    }
+    .main_b,.main_a{
+        width: auto;
+        margin: 2rem ;
+    }
+    .main_b{
+        width: auto;
+    }
+    
+    .ask_Q ,.Feed_back{
+        font-size: 16px;
+    }
 }
