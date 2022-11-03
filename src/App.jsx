@@ -34,19 +34,22 @@ function App() {
     <div className="App">
       <ScrollToTop smooth width="40" />
       <NavComponent />
-      <img className="ad" style={{ display: display }} src={adImg} alt="" />
-      <p
-        className="close-btn"
-        style={{ display: display }}
-        onClick={() => setDisplay("none")}
-      >
-        X
-      </p>
-      <Link to="/form">
-        <button style={{ display: display }} className="apply-btn">
-          Apply Now
-        </button>
-      </Link>
+      <div className="ad_container" style={{ display: display }}>
+        <img className="ad" style={{ display: display }} src={adImg} alt="" />
+        <p
+          className="close-btn"
+          style={{ display: display }}
+          onClick={() => setDisplay("none")}
+        >
+          X
+        </p>
+        <Link to="/form">
+          <button style={{ display: display }} className="apply-btn">
+            Apply Now
+          </button>
+        </Link>
+      </div>
+
       <Routes>
         <Route path="/" element={<LandingPage />}></Route>
         <Route path="/deactivate" element={<Deactivate />}></Route>

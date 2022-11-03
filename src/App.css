@@ -18,3 +18,88 @@ body{
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.ad{
+  border-radius: 20px; 
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+}
+.close-btn{
+  font-size: 40px;
+  font-weight: 700;
+  position: absolute;
+  z-index: 1000;
+  top: 13%;
+  left: 88%;
+  color: white;
+cursor: pointer;
+}
+.apply-btn{
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  z-index: 1000;
+  top: 77%;
+  left: 15%;
+  color: white;
+cursor: pointer;  
+border: 4px solid black;
+padding: 10px;
+border-radius: 10px;
+}
+.ad_container{
+  /* border: 2px solid red; */
+  /* padding: 1rem; */
+  z-index: 100;
+  width: 90vw;
+  height: 600px;
+  position: absolute;
+  top: 10%;
+  margin-left: 5vw;
+  align-self: center;
+  /* left: 8%; */
+  border-radius: 20px;
+}
+@media only screen and (max-width: 750px) {
+  .apply-btn{
+    left: 10%;
+    font-size: 14px;
+  }
+  .ad_container{
+    height: 500px;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .apply-btn{
+    left: 8%;
+    font-size: 12px;
+  }
+  .ad_container{
+    height: 430px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .apply-btn{
+    left: 6%;
+    font-size: 10px;
+  }
+  .ad_container{
+    height: 400px;
+  }
+  .close-btn{
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .apply-btn{
+    left: 6%;
+    font-size: 10px;
+    padding: 4px;
+  }
+  .ad_container{
+    height: 350px;
+  }
+  .close-btn{
+    font-size: 30px;
+  }
+}
