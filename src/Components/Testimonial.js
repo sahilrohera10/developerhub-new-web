@@ -137,7 +137,7 @@ import { motion } from "framer-motion";
 export default function Testimonial() {
   return (
     <>
-      <div className="mt-20">
+      <div className="mt-20" style={{ marginBottom: "250px" }}>
         <h2 className="text-2xl leading-6 text-white text-center px-4">
           Testimonials
         </h2>
@@ -145,6 +145,7 @@ export default function Testimonial() {
           What our client says
         </h1>
         <motion.div
+          style={{ marginTop: "-100px" }}
           viewport={{ once: false }}
           initial={{ opacity: 0, y: 200 }}
           whileInView={{ opacity: 1, x: 0 }}
