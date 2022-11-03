@@ -525,7 +525,7 @@ export default function Testimonial() {
                 Yash Raj Hans
               </p>
               <p className="text-base leading-4 text-center text-gray-600">
-                Support
+                Developer
               </p>
             </div>
           </div>
