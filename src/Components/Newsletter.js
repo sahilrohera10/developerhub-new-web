@@ -6,7 +6,7 @@ export default function Newsletter() {
   return (
     <motion.div
       viewport={{ once: false }}
-      initial={{ opacity: 0, x: 50 }}
+      initial={{ opacity: 0, x: -50 }}
       whileInView={{ opacity: 1, x: 0 }}
       transition={{ type: "easeIn", duration: 0.5, delay: 0.15 }}
       className="mx-auto container py-16 px-6"

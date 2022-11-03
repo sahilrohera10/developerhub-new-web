@@ -13,7 +13,7 @@ export default function Quote() {
       //   ease: [0, 0.71, 0.2, 1.01],
       // }}
       viewport={{ once: false }}
-      initial={{ opacity: 0, x: 50 }}
+      initial={{ opacity: 0, x: -50 }}
       whileInView={{ opacity: 1, x: 0 }}
       transition={{ type: "easeIn", duration: 1.15, delay: 0.15 }}
       className="about"

@@ -32,7 +32,7 @@ function App() {
 
   return (
     <div className="App">
-      <ScrollToTop smooth width="40" />
+      {/* <ScrollToTop smooth width="40" /> */}
       <NavComponent />
       <img className="ad" style={{ display: display }} src={adImg} alt="" />
       <p
