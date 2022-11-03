@@ -26,29 +26,44 @@ import Deactivate from "./Components/Deactivate";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import adImg from "./assets/ad-img.jpeg";
+import { useLocation } from "react-router-dom";
 
 function App() {
   const [display, setDisplay] = useState("block");
+
+  const location = useLocation();
 
   return (
     <div className="App">
       {/* <ScrollToTop smooth width="40" /> */}
       <NavComponent />
-      <div className="ad_container" style={{ display: display }}>
-        <img className="ad" style={{ display: display }} src={adImg} alt="" />
-        <p
-          className="close-btn"
-          style={{ display: display }}
-          onClick={() => setDisplay("none")}
-        >
-          X
-        </p>
-        <Link to="/form">
-          <button style={{ display: display }} className="apply-btn">
-            Apply Now
-          </button>
-        </Link>
-      </div>
+
+      {location.pathname === "/" ? (
+        <>
+          <div className="ad_container" style={{ display: display }}>
+            <img
+              className="ad"
+              style={{ display: display }}
+              src={adImg}
+              alt=""
+            />
+            <p
+              className="close-btn"
+              style={{ display: display }}
+              onClick={() => setDisplay("none")}
+            >
+              X
+            </p>
+            <Link to="/form">
+              <button style={{ display: display }} className="apply-btn">
+                Apply Now
+              </button>
+            </Link>
+          </div>
+        </>
+      ) : (
+        ""
+      )}
 
       <Routes>
         <Route path="/" element={<LandingPage />}></Route>
