@@ -25,12 +25,15 @@ const Corporate = () => {
   return (
     <div>
       <div className="university_body">
-        <div id="reverse" className="university_banner">
-          <div className="banner_heading1">Corporate</div>
-
-          <div className="banner_image">
-            <img src="university.jfif" alt="" />
-          </div>
+        <div
+          id="reverse"
+          className="university_banner"
+          style={{
+            backgroundImage: "url(Corporate.webp)",
+            backgroundSize: "100% 120%",
+          }}
+        >
+          <div className="banner_heading1">CORPORATE</div>
         </div>
         <div className="university_services">
           <p className="services_header">Services</p>

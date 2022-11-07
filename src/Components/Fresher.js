@@ -25,12 +25,15 @@ const Fresher = () => {
   return (
     <div>
       <div className="university_body">
-        <div id="reverse" className="university_banner">
-          <div className="banner_heading1">Fresher</div>
-
-          <div className="banner_image">
-            <img src="university.jfif" alt="" />
-          </div>
+        <div
+          id="reverse"
+          className="university_banner"
+          style={{
+            backgroundImage: "url(Fresher1.webp)",
+            backgroundSize: "100% 100%",
+          }}
+        >
+          <div className="banner_heading1">FRESHERS</div>
         </div>
         <div className="university_services">
           <p className="services_header">Services</p>
