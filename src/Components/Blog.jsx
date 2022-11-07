@@ -130,7 +130,7 @@ function Blog() {
               </motion.div>
               <motion.div
                 viewport={{ once: false }}
-                initial={{ opacity: 0, x: 70 }}
+                initial={{ opacity: 0, y: -70 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 transition={{ type: "easeIn", duration: 1.0, delay: 0.15 }}
               >
