@@ -8,7 +8,7 @@ import Button from "@mui/material/Button";
 import Paper from "@mui/material/Paper";
 import Typography from "@mui/material/Typography";
 import "./roadmap.css";
-import roadmapImg from "../assets/roadmap.jpg";
+// import roadmapImg from "roadmap1.jfif";
 
 const steps = [
   {
@@ -115,7 +115,7 @@ export default function Roadmap() {
         </div>
         <div className="right_roadmap">
           <div className="right_image">
-            <img className="right_image" src={roadmapImg} alt="" />
+            <img className="right_image" src="roadmap1.jfif" alt="" />
           </div>
         </div>
       </div>
