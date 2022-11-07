@@ -1,0 +1,152 @@
+.C_Community {
+  width: 100%;
+  background-color: #0d0628;
+  margin-top: 10rem;
+  z-index: -1;
+  height: auto;
+}
+
+.C_img {
+  width: 60%;
+}
+.C_img1 {
+  width: 35%;
+  border-radius: 5rem 0 0 5rem;
+}
+.C_title {
+  font-size: 42px;
+  font-weight: 600;
+  color:#fff;
+ 
+  z-index: 1;
+}
+.C_headline {
+  margin: 2rem;
+  padding: 1.5rem;
+  width: 50%;
+}
+.C_Grp {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; 
+  margin: 0 6rem; 
+}
+  .C_Grp1 {
+    background: azure;
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 9rem 6rem;
+    border-radius:5rem ;
+    /* justify-content: space-evenly;
+    margin: 0 6rem; */
+    justify-content: space-between;
+   
+  }
+
+
+.join {
+  text-align: center;
+  background-color: darkmagenta;
+  color: #fff;
+  border-radius: 20px;
+  width: 194px;
+  padding: 1rem;
+  margin: 1rem 0;
+  margin: 0.5rem 2rem;
+  font-size: 22px;
+  cursor: pointer;
+}
+.join:hover {
+  background-color: rgb(243, 7, 243);
+}
+.Cform {
+  background-color: white;
+  width: 100%;
+  /* margin: 2rem 6rem; */
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  box-shadow: 0px 2px 16px 0px rgba(0, 0, 0, 0.1);
+  padding: 2rem 2.5rem;
+  margin-top: 1rem;
+}
+.C_filed {
+  display: inline-flex;
+}
+
+.join_title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 500;
+  margin: 0.5rem;
+  text-decoration: underline;
+}
+
+@media only screen and (min-width: 930px) and (max-width: 1029px) {
+ .C_img1{
+  width: 49%;
+ }
+ 
+  .C_form {
+    padding: 2rem 1.5rem;
+  }
+  .C_filed{
+    width: 17rem;
+  }
+}
+@media only screen and (min-width: 890px) and (max-width: 930px) {
+  .C_filed{
+    width: 17rem;
+  }
+  .C_headline{
+    padding: 0.5rem;
+  }
+  .C_img1{
+    width: 50%;
+  }
+}
+@media only screen and (min-width: 700px) and (max-width: 890px) 
+{
+  .C_filed{
+    width: 11rem;
+  }
+  .C_img1{
+    width: 52%;
+  }
+}
+@media only screen and (min-width: 500px) and (max-width: 700px) 
+{
+  .C_filed{
+    width: 10rem;
+  }
+  .C_Grp{
+    display: flex;
+    flex-direction: column;
+  }
+  /* .C_headline{
+    padding: relative;
+    margin-left: 7rem;
+  } */
+
+  .C_Grp1{
+    display: flex;
+    flex-direction: column;
+    background: none;
+  }
+
+  .C_form{
+    display: contents;
+  }
+   .C_img1{
+    display: none;
+ 
+  }
+  .C_headline {
+    margin: .5rem;
+    padding: 0.5rem;
+    width: 90%;
+  }
+  .C_img{
+    width: inherit;
+  }
+
+}
