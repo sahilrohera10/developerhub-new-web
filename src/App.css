@@ -31,8 +31,8 @@ body{
   font-weight: 700;
   position: absolute;
   z-index: 1000;
-  top: 13%;
-  left: 88%;
+  top: 6%;
+  left: 94%;
   color: white;
 cursor: pointer;
 }
@@ -70,6 +70,9 @@ border-radius: 10px;
   }
   .ad_container{
     height: 500px;
+  }
+  .close-btn{
+    left: 88%;
   }
 }
 @media only screen and (max-width: 550px) {

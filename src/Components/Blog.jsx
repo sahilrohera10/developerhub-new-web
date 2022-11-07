@@ -93,7 +93,7 @@ function Blog() {
                 initial={{ opacity: 0, x: -70 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 transition={{ type: "easeIn", duration: 1.0, delay: 0.15 }}
-                className="blog-card"
+                className="blog-card  "
               >
                 <img
                   className="w-full"
@@ -110,7 +110,8 @@ function Blog() {
                 </div>
                 <div
                   // style={{ height: "52vh" }}
-                  className="bg-white px-5 py-6 rounded-bl-3xl rounded-br-3xl"
+                  className="bg-white px-5 py-3 rounded-bl-3xl rounded-br-3xl"
+                  style={{ height: "auto" }}
                 >
                   {/* <h1 className="text-4xl text-gray-900 font-semibold tracking-wider blog-header">
                     Opportunities
@@ -122,7 +123,8 @@ function Blog() {
                     of businesses with the wide gamut of blockchain development,
                     the requirement for blockchain developers has come up
                     steeply.Blockchain development services providers are here
-                    to take businesses to the web 3.0 world.
+                    to take businesses to the web 3.0 world, where as a
+                    developer, you have umpteen business opportunities.
                   </p>
 
                   <div className="h-5 w-2" />
@@ -135,7 +137,7 @@ function Blog() {
                 transition={{ type: "easeIn", duration: 1.0, delay: 0.15 }}
               >
                 <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-8">
-                  <div className="blog-card">
+                  <div className="blog-card mt-20 ">
                     <img
                       className="w-full"
                       src="https://cdn.tuk.dev/assets/components/111220/Blg-6/blog(2).png"
@@ -160,9 +162,9 @@ function Blog() {
                       </p>
                     </div>
                   </div>
-                  <div className="blog-card">
+                  <div className="blog-card mt-20 ">
                     <img
-                      className="w-full"
+                      className="w-full h-32"
                       src="https://cdn.tuk.dev/assets/components/111220/Blg-6/blog(3).png"
                       alt="notes"
                     />
