@@ -241,6 +241,41 @@ export default function NavComponent() {
                   </Link>
                 </NavDropdown.Item>
               </NavDropdown>
+              <NavDropdown
+                className="navdrop"
+                title="Networking"
+                id="collasible-nav-dropdown"
+              >
+                <NavDropdown.Item onClick={hideSidebar}>
+                  {" "}
+                  <Link
+                    style={{ textDecoration: "none", color: "black" }}
+                    to="/forum"
+                  >
+                     Discussion Forum
+                  </Link>{" "}
+                </NavDropdown.Item>
+
+                <NavDropdown.Item onClick={hideSidebar}>
+                  {" "}
+                  <Link
+                    to="/community"
+                    style={{ textDecoration: "none", color: "black" }}
+                  >
+                   Community
+                  </Link>{" "}
+                </NavDropdown.Item>
+                {/* <NavDropdown.Item onClick={hideSidebar}>
+                  {" "}
+                  <Link
+                    style={{ textDecoration: "none", color: "black" }}
+                    to="/training-team"
+                  >
+                    Training Team
+                  </Link>{" "}
+                </NavDropdown.Item> */}
+              </NavDropdown>
+
 
               <Nav.Link className="navdrop">
                 <Link to="/contact" onClick={hideSidebar}>
@@ -248,11 +283,13 @@ export default function NavComponent() {
                 </Link>
               </Nav.Link>
 
+          
               <Nav.Link className="navdrop"></Nav.Link>
               <Nav.Link eventKey={2} href="#memes">
                 {/* margin */}
               </Nav.Link>
             </Nav>
+
             {/* <Button
                 variant="contained"
                 style={{
