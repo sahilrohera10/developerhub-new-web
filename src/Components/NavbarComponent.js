@@ -4,6 +4,7 @@ import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
 import Dropdown from "react-bootstrap/Dropdown";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
+import { Button } from "@mui/material";
 
 export default function NavComponent() {
   const navigate = useNavigate();
@@ -284,10 +285,7 @@ export default function NavComponent() {
               </Nav.Link>
 
           
-              <Nav.Link className="navdrop"></Nav.Link>
-              <Nav.Link eventKey={2} href="#memes">
-                {/* margin */}
-              </Nav.Link>
+             
             </Nav>
 
             {/* <Button
@@ -306,6 +304,8 @@ export default function NavComponent() {
                 style={{
                   borderRadius: "50px",
                   backgroundColor: "rgb(56, 72, 241)",
+                  position:'relative',
+
                 }}
               >
                 REGISTER
@@ -333,6 +333,56 @@ export default function NavComponent() {
                 </Dropdown.Item>
               </Dropdown.Menu>
             </Dropdown>
+            {/* <Dropdown>
+              <Dropdown.Toggle
+                variant="outlined"
+                id="dropdown-basic"
+                style={{
+                  marginLeft:"10px",
+                  border:"1px solid white",
+                  borderRadius: "50px",
+                  backgroundColor: "transparent",
+                }}
+              >
+                Signin
+              </Dropdown.Toggle>
+
+              <Dropdown.Menu>
+                <Dropdown.Item onClick={hideSidebar}>
+                  {" "}
+                  <Link
+                    to="/adminForm"
+                    style={{ textDecoration: "none", color: "black" }}
+                  >
+                    Admin
+                  </Link>{" "}
+                </Dropdown.Item>
+
+                <Dropdown.Item onClick={hideSidebar}>
+                  {" "}
+                  <Link
+                    to="/form"
+                    style={{ textDecoration: "none", color: "black" }}
+                  >
+                    Others
+                  </Link>
+                </Dropdown.Item>
+              </Dropdown.Menu>
+            </Dropdown> */}
+            <Link to="/signin">
+            <Button variant="outlined" style={{
+                                        borderRadius:'20px',
+                                        margin:'5px',
+                                        marginTop:'10px',
+                                        width:'100px',
+                                        height:'42px',
+                                        color:'white',
+                                        border:'1px solid white',
+                                        fontSize:'12px',
+                                        padding:'20px'
+                                        
+          
+          }} onClick={hideSidebar} >Sign In</Button></Link>
           </Navbar.Collapse>
         </Container>
       </Navbar>
