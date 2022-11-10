@@ -69,12 +69,13 @@ const Community = () => {
         <div className="C_headline">
          
           <h1 className="C_title">Community</h1>
-          <h1 className="join">Join Us </h1>
+
+         <div className="join"> <a data-scroll href="#C_Grp1">Join Us </a></div>
         </div>
         <img className="C_img" src={community} alt="" />
       </div>
 
-      <div className="C_Grp1">
+      <div className="C_Grp1" id="C_Grp1">
         <div className="C_headline">
          
         <div className="Cform">
