@@ -1,0 +1,27 @@
+.signContainer{
+    width: 100%;
+    background-color: #0d0628;
+    margin-top: 6rem;
+    z-index: -1;
+    height: auto;
+    width: fit-content;
+    /* box-shadow: 10px -9px 15px 2px rgb(40, 40, 173); */
+
+}
+
+@media only screen and (min-width:700px) and (max-width:1600px)  {
+
+    .signContainer{
+    width: 100%;
+    background-color: #0d0628;
+    margin-top: 6rem;
+    z-index: -1;
+    height: auto;
+    width: fit-content;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 10px;
+    /* box-shadow: 10px -9px 15px 2px rgb(40, 40, 173); */
+
+}
+}
