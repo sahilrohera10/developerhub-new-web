@@ -81,6 +81,7 @@
   text-decoration: underline;
 }
 
+
 @media only screen and (min-width: 930px) and (max-width: 1029px) {
  .C_img1{
   width: 49%;
@@ -143,6 +144,45 @@
   .C_headline {
     margin: .5rem;
     padding: 0.5rem;
+    width: 90%;
+  }
+  .C_img{
+    width: inherit;
+  }
+
+}
+@media only screen and (min-width: 300px) and (max-width: 500px) 
+{
+  .C_filed{
+    width: 10rem;
+  }
+  .C_Grp{
+    display: flex;
+    flex-direction: column;
+  }
+   .C_Grp .C_headline{
+    padding: relative;
+    left:0rem;
+  }
+
+  .C_Grp1{
+    display: flex;
+    flex-direction: column;
+    background: none;
+    margin: 2rem 0;
+    margin-left: 1.3rem;
+  }
+
+  .C_form{
+    display: contents;
+  }
+   .C_img1{
+    display: none;
+ 
+  }
+  .C_headline {
+    margin: 0;
+    padding: 0;
     width: 90%;
   }
   .C_img{
