@@ -28,6 +28,8 @@ import { Link } from "react-router-dom";
 import adImg from "./assets/ad-img.jpeg";
 import { useLocation } from "react-router-dom";
 import Community from "./Components/community";
+import Signin from "./Components/Signin";
+import Forgot from "./Components/Forgot";
 
 function App() {
   const [display, setDisplay] = useState("block");
@@ -68,6 +70,8 @@ function App() {
 
       <Routes>
         <Route path="/" element={<LandingPage />}></Route>
+        <Route path="/signin" element={<Signin />}></Route>
+        <Route path="/forgot" element={<Forgot />}></Route>
         <Route path="/community" element={<Community />}></Route>
         <Route path="/deactivate" element={<Deactivate />}></Route>
         <Route path="/software" element={<Software />}></Route>
